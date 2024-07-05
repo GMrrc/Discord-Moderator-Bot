@@ -4,6 +4,18 @@ const schedule = require('node-schedule');
 require('dotenv').config();
 const fs = require('node:fs');
 const path = require('node:path');
+/** 
+const { exec } = require('child_process');
+
+const scriptPath = path.join(__dirname, 'start.sh');
+
+exec(`sh ${scriptPath}`, (err, stdout, stderr) => {
+  if (err) {
+    console.error(`py_server.init (ERROR) :` + err);
+    return;
+  }
+  console.log(`py_server.init (SUCCESS) :` + stdout);
+});*/
 
 const GuildBanwordManager = require('./handle/guildBanwordManager');
 const UserSpamManager = require('./handle/userSpamManager');
@@ -198,16 +210,20 @@ client.on(Events.MessageUpdate, async (oldMessage, newMessage) => {
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 client.on('voiceStateUpdate', (oldState, newState) => {
+  try {
+    if (oldState.channelId && !newState.channelId) {
+      const voiceChannel = oldState.channel;
+      
+      const botMember = voiceChannel.members.get(client.user.id);
 
-  if (oldState.channelId && !newState.channelId) {
-    const voiceChannel = oldState.channel;
-    
-    const botMember = voiceChannel.members.get(client.user.id);
-    if (botMember && voiceChannel.members.size === 1) {
-      console.log(`No user left, disconnected from ${voiceChannel.name}`);
-      const guildId = oldState.guild.id;
-      songManager.deconnect(guildId);
+      if (botMember && voiceChannel.members.size === 1 && voiceChannel.members.has(client.user.id)) {
+        console.log(`No user left, disconnected from ${voiceChannel.name}`);
+        const guildId = oldState.guild.id;
+        songManager.deconnect(guildId);
+      }
     }
+  } catch (error) {
+    console.error('bot.voiceStateUpdate (ERROR) : ', error);
   }
 });
 

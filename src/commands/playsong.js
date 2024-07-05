@@ -13,8 +13,9 @@ function commandData() {
   return new SlashCommandBuilder()
     .setName("playsong")
     .setDescription("Play a song in your current voice channel")
-    .addStringOption(option => option.setName('url').setDescription('The YouTube URL of the song').setRequired(true));
+    .addStringOption(option => option.setName('song').setDescription('The URL or name of the song').setRequired(true));
 }
+
 
 async function execute(interaction, songManager) {
   try {
@@ -121,14 +122,14 @@ async function playNextSong(player, interaction, songManager, connection) {
     }
 
     songManager.removeSong(guildId);
-
+    
     setTimeout(() => {
       const dataDelete = {
         guild: guildId,
-        video_url: song.url
+        video_url: song.url,
       };
       axios.post('http://127.0.0.1:5001/delete', dataDelete);
-    }, 30000);
+    }, 180000);
 
     player.removeAllListeners();
     player.on(AudioPlayerStatus.Idle, () => {
