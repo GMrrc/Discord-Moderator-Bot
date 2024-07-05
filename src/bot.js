@@ -198,19 +198,22 @@ client.on(Events.MessageUpdate, async (oldMessage, newMessage) => {
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 client.on('voiceStateUpdate', (oldState, newState) => {
+  try {
+    if (oldState.channelId && !newState.channelId) {
+      const voiceChannel = oldState.channel;
+      
+      const botMember = voiceChannel.members.get(client.user.id);
 
-  if (oldState.channelId && !newState.channelId) {
-    const voiceChannel = oldState.channel;
-    
-    const botMember = voiceChannel.members.get(client.user.id);
-    if (botMember && voiceChannel.members.size === 1) {
-      console.log(`No user left, disconnected from ${voiceChannel.name}`);
-      const guildId = oldState.guild.id;
-      songManager.deconnect(guildId);
+      if (botMember && voiceChannel.members.size === 1 && voiceChannel.members.has(client.user.id)) {
+        console.log(`No user left, disconnected from ${voiceChannel.name}`);
+        const guildId = oldState.guild.id;
+        songManager.deconnect(guildId);
+      }
     }
+  } catch (error) {
+    console.error('bot.voiceStateUpdate (ERROR) : ', error);
   }
 });
-
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
