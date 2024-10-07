@@ -56,6 +56,16 @@ class SongManager {
       }
   }
 
+  getFullSongQueue(guildId) {
+    try {
+        if (this.songQueue.has(guildId)) {
+          return this.songQueue.get(guildId);
+        }
+      } catch (error) {
+        console.error('\tsongManager.getFullSongQueue (ERROR) : '+error);
+      }
+  }
+
   getAudioPlayer(guildId) {
     try {
         if (!this.guildAudioPlayer.has(guildId)) {
@@ -93,14 +103,15 @@ class SongManager {
       }
   
       let connection = getVoiceConnection(guildId);
-      if (!connection) {
-        console.log(`No voice connection found for guild ${guildId}`);
+      if (!connection || connection.state.status === 'destroyed') {
+        console.log(`No voice connection found or already destroyed for guild ${guildId}`);
         return;
       }
   
       connection.destroy();
       player.stop();
       this.delAudioPlayer(guildId);
+      this.removeAllSongs(guildId);
       console.log(`Disconnected from guild ${guildId}`);
       
     } catch (error) {

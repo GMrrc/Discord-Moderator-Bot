@@ -21,7 +21,7 @@ const GuildBanwordManager = require('./handle/guildBanwordManager');
 const UserSpamManager = require('./handle/userSpamManager');
 const EventManager = require('./handle/eventManager');
 const GuildLevelManager = require('./handle/guildLevelManager');
-const SongManager = require('./handle/songManager')
+const SongManager = require('./handle/songManager');
 
 const Utils = require('./utils');
 
@@ -33,7 +33,7 @@ const userSpamManager = new UserSpamManager();
 const eventManager = new EventManager();
 const guildLevelManager = new GuildLevelManager();
 const songManager = new SongManager();
-const guildMessages = new Map();
+let guildMessages = new Map();
 
 const spamEmbed = Utils.toEmbed('Spam', 'You are spamming. Your message has been deleted.', 0xff0000);
 const banEmbed = Utils.toEmbed('Banned Word', 'Your message has been deleted because it contained a banned word.', 0xff0000);
@@ -256,6 +256,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     'playsong': songManager,
     'stopsong': songManager,
     'skipsong': songManager,
+    'songlist': songManager,
     'chat': guildMessages
   };
 

@@ -14,7 +14,7 @@ class UserSpamManager {
         }
 
         if (!this.guildMaxSpam.has(guildId)) {
-            this.guildMaxSpam.set(guildId, 8);
+            this.guildMaxSpam.set(guildId, 12);
         }
 
         const userSpamData = this.userSpamIteration.get(userId);

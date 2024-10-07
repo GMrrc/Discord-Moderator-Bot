@@ -18,6 +18,17 @@ npm install
 #### Configuration
 
 Before launching the bot, ensure to set up the Discord bot token in your environment variables within the .env file.
+This file should contain the following:
+
+```bash
+TOKEN=YOUR_DISCORD_BOT_TOKEN
+CLIENT_ID=YOUR_DISCORD_CLIENT_ID
+
+#for llm api (optional)
+base_url=YOUR_LLM_API
+api_key=YOUR_LLM_API_KEY
+```
+
 
 ### Usage
 
@@ -30,9 +41,26 @@ node src/register/register_commands.js
 Initiate the bot with:
 
 ```bash
-node src/core.js
+node src/bot.js
 ```
 
+
+### Start youtube-dl server
+
+Install the required dependencies for the youtube-dl server:
+
+```bash 
+cd youtube_dl
+python3 -m venv venv
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+Start the youtube-dl server:
+```bash
+cd youtube_dl
+start.sh
+```
 
 
 #### Adding New Slash Commands
@@ -43,8 +71,6 @@ To add new slash commands, you need to create a file named `your_command.js` wit
 #### Additional Notes
 
 Verify that your Discord bot possesses the required permissions within your server.
-
-#
 
 
 ### Author's Note

@@ -13,31 +13,31 @@ SAVE_PATH = "./save"
 
 def download(link, save_path, key):
     try:
-        
-
-        link = playlistToVideo(link)
-
         ydl_opts = {
             'format': 'bestaudio/best',
-            'outtmpl': os.path.join(save_path, f'{key}.opus')
+            'outtmpl': os.path.join(save_path, f'{key}.opus'),
+            'noplaylist': True  # S'assure de ne pas traiter les playlists
         }
+        
         with YoutubeDL(ydl_opts) as ydl:
-            info_dict = ydl.extract_info(link, download=True)
-            video_title = info_dict.get('title', None)
-        print("Download is completed successfully")
+            # Extraire les informations sans télécharger
+            info_dict = ydl.extract_info(link, download=False)
+            duration = info_dict.get('duration', 0)  # Durée en secondes
+            
+            # Vérifier si la durée est supérieure à 20 minutes (1200 secondes)
+            if duration > 800:
+                return None
 
+            # Si la durée est acceptable, télécharger
+            ydl.download([link])
+            video_title = info_dict.get('title', None)
+            
+        print("Download is completed successfully")
         return video_title
     except Exception as e:
         logging.error("An error occurred while downloading the audio: %s", e)
         return None
 
-
-def playlistToVideo(url):
-    if "?list=" in url:
-        playlist_id = url.split("?list=")[0]
-        return playlist_id
-    else:
-        return url
     
 
 def validator_url(url):
@@ -74,7 +74,7 @@ def download_audio_route():
         guild = data.get('guild')
 
         if not video_url or not guild:
-            return jsonify({'error': 'Missing video_url or guild in request'}), 400
+            return jsonify({'error': 'Missing video url or guild in request'}), 400
         
         key = video_url.replace("/", "")
         
@@ -82,12 +82,15 @@ def download_audio_route():
             video_url = get_first_youtube_video(video_url)
         
         if not validator_url(video_url):
-            return jsonify({'error': 'Invalid video_url'}), 400
+            return jsonify({'error': 'Invalid video url'}), 400
 
         local_path = os.path.join(SAVE_PATH, guild)
         os.makedirs(local_path, exist_ok=True)
 
         title = download(video_url, local_path, key)
+
+        if not title:
+            return jsonify({'error': 'Video is too long or not found'}), 400
 
         return jsonify({'title': title}), 200
     except Exception as e:

@@ -2,6 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 const axios = require('axios');
 const Utils = require('./../utils');
 const path = require('path');
+const fs = require('fs');
 const {
   createAudioResource
 } = require('@discordjs/voice');
@@ -9,13 +10,15 @@ const {
 
 
 function commandData() {
-    return new SlashCommandBuilder()
-        .setName("skipsong")
-        .setDescription("Skip the current song of the channel queue");
+  return new SlashCommandBuilder()
+    .setName("skipsong")
+    .setDescription("Skip the current song of the channel queue");
 }
 
 
 async function execute(interaction, songManager) {
+
+  try {
 
     const guildId = interaction.guild.id;
 
@@ -26,13 +29,13 @@ async function execute(interaction, songManager) {
     const channel = interaction.channel;
 
     if (!song) {
-        player.stop();
-        songManager.delAudioPlayer(guildId);
-        interaction.reply({
-          content: 'No more songs to play.',
-          ephemeral: true
-        });
-        return;
+      player.stop();
+      songManager.delAudioPlayer(guildId);
+      interaction.reply({
+        content: 'No more songs to play.',
+        ephemeral: true
+      });
+      return;
     } else {
       interaction.reply({
         content: 'Skipping the song ...',
@@ -44,16 +47,25 @@ async function execute(interaction, songManager) {
 
     const parentDirectory = path.resolve(__dirname, '../..');
     const filePath = path.join(parentDirectory, `youtube_dl/save/${guildId}/${key}.opus`);
-    const resource = createAudioResource(filePath);
 
-    if (!resource) {
-      setTimeout(() => {
-        resource = createAudioResource(filePath);
-        if (!resource) {
-          return;
-        }
-      }, 5000);
-    }
+    fs.access(filePath, fs.constants.F_OK, async (err) => {
+      if (err) {
+        console.error("File does not exist, retrying in 8 seconds...");
+        setTimeout(() => {
+          fs.access(filePath, fs.constants.F_OK, (retryErr) => {
+            if (retryErr) {
+              console.error("File still does not exist after retry.");
+              return;
+            }
+            let resource = createAudioResource(filePath);
+            player.play(resource);
+          });
+        }, 8000);
+      } else {
+        let resource = createAudioResource(filePath);
+        player.play(resource);
+      }
+    });
 
     songManager.removeSong(guildId);
 
@@ -64,20 +76,22 @@ async function execute(interaction, songManager) {
       embeds: [embed]
     });
 
-    await player.play(resource);
-
     setTimeout(() => {
-      dataDelete = {
+      const dataDelete = {
         guild: guildId,
         video_url: song.url
-      }
-  
+      };
       axios.post('http://127.0.0.1:5001/delete', dataDelete)
-    }, 180000);
+    }, 5000);
+
+    player.removeAllListeners();
+  } catch (error) {
+    console.error('bot.skipsong (ERROR) : ', error);
+  }
 }
 
 
 module.exports = {
-    commandData,
-    execute
-  };
+  commandData,
+  execute
+};

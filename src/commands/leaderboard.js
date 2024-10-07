@@ -26,9 +26,9 @@ async function execute(interaction, levelManager) {
             return;
         }
 
-        if (amount > 10) {
+        if (amount > 20) {
             await interaction.reply({
-                content: 'The amount must be at most 10',
+                content: 'The amount must be at most 20',
                 ephemeral: true
             });
             return;
