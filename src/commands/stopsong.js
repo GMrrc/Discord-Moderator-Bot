@@ -10,10 +10,10 @@ function commandData() {
 async function execute(interaction, songManager) {
     try {
         const guildId = interaction.guild.id;
-
         let player = songManager.getAudioPlayer(guildId);
 
         player.stop();
+        songManager.unsetPlaySource(guildId);
         songManager.delAudioPlayer(guildId);
         songManager.removeAllSongs(guildId);
 

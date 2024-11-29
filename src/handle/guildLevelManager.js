@@ -27,7 +27,6 @@ class GuildLevelManager {
 
         this.cronSave = schedule.scheduleJob('*/20 * * * *', () => {
             this.saveLevels();
-            console.log('\tlevel.autoSave (SUCCESS) : Levels saved');
         });
     }
 

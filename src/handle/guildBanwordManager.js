@@ -32,7 +32,6 @@ class GuildBanwordManager {
 
     this.cronSave = schedule.scheduleJob('*/20 * * * *', () => {
       this.saveBanwords(); // Call saveBanwords using 'this'
-      console.log('\tbanword.autoSave (SUCCESS) : Banwords saved');
     });
   }
 
@@ -104,7 +103,7 @@ class GuildBanwordManager {
 
         banwords.push(banword);
 
-        console.log('\tbanword.add (SUCCESS) : Banword added to guild ' + guildId + ' : ' + banword);
+        console.log('banword.add (SUCCESS) : Banword added to guild ' + guildId + ' : ' + banword);
 
         resolve(true);
       } catch (error) {
@@ -134,7 +133,7 @@ class GuildBanwordManager {
           banwords.splice(index, 1);
         }
 
-        console.log('\tbanword.remove (SUCCESS) : Banword removed from guild ' + guildId + ' : ' + banword);
+        console.log('banword.remove (SUCCESS) : Banword removed from guild ' + guildId + ' : ' + banword);
 
         resolve();
       } catch (error) {

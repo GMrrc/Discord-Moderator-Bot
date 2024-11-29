@@ -25,7 +25,7 @@ def download(link, save_path, key):
             duration = info_dict.get('duration', 0)  # Durée en secondes
             
             # Vérifier si la durée est supérieure à 20 minutes (1200 secondes)
-            if duration > 800:
+            if duration > 3600:
                 return None
 
             # Si la durée est acceptable, télécharger
@@ -44,8 +44,8 @@ def validator_url(url):
     if not url or url.isspace():
         return False
     
-    start_pattern = re.compile(r'^(http|https)://')
-    if not start_pattern.match(url):
+    youtube_pattern = re.compile(r'^(http|https)://(www\.)?youtube\.com/watch\?v=|^(http|https)://youtu\.be/')
+    if not youtube_pattern.match(url):
         return False
     
     return True

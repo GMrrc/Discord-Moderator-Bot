@@ -1,0 +1,282 @@
+{
+    "Radio Classique": {
+        "urls": [
+            "http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+            "http://broadcast.infomaniak.ch/radioclassique-high.mp3",
+            "http://statslive.infomaniak.ch/playlist/radioclassique/radioclassique-high.mp3/playlist.m3u"
+        ]
+    },
+    "NRJ France": {
+        "urls": [
+            "https://scdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3?origine=fluxradios",
+            "http://cdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3?origine=fluxradios"
+        ]
+    },
+    "Nostalgie France": {
+        "urls": [
+            "https://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3?origine=fluxradios",
+            "http://cdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3?origine=fluxradios"
+        ]
+    },
+    "Chérie FM": {
+        "urls": [
+            "https://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3?origine=fluxradios",
+            "http://cdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3?origine=fluxradios"
+        ]
+    },
+    "Rire & Chansons": {
+        "urls": [
+            "https://scdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3?origine=fluxradios",
+            "http://cdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3?origine=fluxradios"
+        ]
+    },
+    "RTL": {
+        "urls": [
+            "http://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+            "http://streaming.radio.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+            "http://streaming.radio.rtl.fr:80/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+        ]
+    },
+    "Fun Radio France": {
+        "urls": [
+            "http://icecast.funradio.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+            "http://icecast.rtl.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+            "http://streaming.radio.funradio.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+            "http://streaming.radio.funradio.fr:80/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+        ]
+    },
+    "Europe 2": {
+        "urls": [
+            "http://europe2.lmn.fm/europe2.mp3",
+            "http://europe2.lmn.fm/europe2.aac"
+        ]
+    },
+    "RFM": {
+        "urls": [
+            "http://rfm.lmn.fm/rfm.mp3",
+            "http://stream.rfm.fr/rfm.mp3",
+            "http://rfm.lmn.fm/rfm.aac",
+            "http://stream.rfm.fr/rfm.aac"
+        ]
+    },
+    "Skyrock": {
+        "urls": [
+            "http://icecast.skyrock.net/s/natio_aac_128k",
+            "http://icecast.skyrock.net/s/natio_mp3_128k",
+            "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3"
+        ]
+    },
+    "France Info": {
+        "urls": [
+            "http://icecast.radiofrance.fr/franceinfo-hifi.aac",
+            "http://direct.franceinfo.fr/live/franceinfo-hifi.aac",
+            "http://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+            "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3"
+        ]
+    },
+    "France Inter": {
+        "urls": [
+            "http://icecast.radiofrance.fr/franceinter-hifi.aac",
+            "http://direct.franceinter.fr/live/franceinter-hifi.aac",
+            "http://icecast.radiofrance.fr/franceinter-midfi.mp3"
+        ]
+    },
+    "France Culture": {
+        "urls": [
+            "http://icecast.radiofrance.fr/franceculture-hifi.aac",
+            "http://direct.franceculture.fr/live/franceculture-hifi.aac",
+            "http://icecast.radiofrance.fr/franceculture-midfi.mp3"
+        ]
+    },
+    "France Musique": {
+        "urls": [
+            "http://icecast.radiofrance.fr/francemusique-hifi.aac",
+            "http://direct.franceinter.fr/live/francemusique-hifi.aac",
+            "http://icecast.radiofrance.fr/francemusique-midfi.mp3",
+            "http://direct.francemusique.fr/live/francemusique-midfi.mp3"
+        ]
+    },
+    "FIP": {
+        "urls": [
+            "http://icecast.radiofrance.fr/fip-hifi.aac",
+            "http://direct.fipradio.fr/live/fip-hifi.aac",
+            "http://icecast.radiofrance.fr/fip-midfi.mp3"
+        ]
+    },
+    "Jazz Radio": {
+        "urls": [
+            "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+            "http://broadcast.infomaniak.net/jazzradio-high.mp3",
+            "http://statslive.infomaniak.ch/playlist/jazzradio/jazzradio-high.mp3/playlist.m3u"
+        ]
+    },
+    "BFM Business": {
+        "urls": [
+            "http://audio.bfmtv.com/bfmbusiness_128.mp3"
+        ]
+    },
+    "Mouv'": {
+        "urls": [
+            "http://icecast.radiofrance.fr/mouv-hifi.aac",
+            "http://direct.mouv.fr/live/mouv-hifi.aac",
+            "http://icecast.radiofrance.fr/mouv-midfi.mp3",
+            "http://direct.mouv.fr/live/mouv-midfi.mp3"
+        ]
+    },
+    "Ouï FM": {
+        "urls": [
+            "http://ouifm.ice.infomaniak.ch/ouifm-high.mp3",
+            "http://broadcast.infomaniak.net/ouifm-high.mp3",
+            "http://broadcast.infomaniak.ch/ouifm-high.mp3",
+            "http://statslive.infomaniak.ch/playlist/ouifm/ouifm-high.mp3/playlist.m3u"
+        ]
+    },
+    "Radio FG": {
+        "urls": [
+            "http://radiofg.impek.com/fg",
+            "http://radiofg.impek.com/fg.mp3",
+            "http://n15a-eu.rcs.revma.com/wknqhm4yuchvv?",
+            "http://n13a-eu.rcs.revma.com/7081n2b6p98uv?"
+        ]
+    },
+    "Only Japan": {
+        "urls": [
+            "https://ais-sa3.cdnstream1.com/2629_128.mp3"
+        ]
+    },
+    "NHK" : {
+        "urls": [
+            "https://nhk-radio.stream.laut.fm/nhk-radio"
+        ]
+    },
+    "J-Pop Sakura - asia DREAM radio": {
+        "urls": [
+            "https://cast1.torontocast.com:2170/;"
+        ]
+    },
+    "J-Pop Powerplay Kawaii": {
+        "urls": [
+            "https://kathy.torontocast.com:3060/;"
+        ]
+    },
+    "J-Rock Powerplay": {
+        "urls": [
+            "https://kathy.torontocast.com:3340/;"
+        ]
+    },
+    "Game and a Curry": {
+        "urls": [
+            "https://kathy.torontocast.com:2965/stream"
+        ]
+    },
+    "Japanimradio": {
+        "urls": [
+            "https://stream.zeno.fm/wotkyd6dbqzuv"
+        ]
+    },
+    "Hotmix Radio Japan": {
+        "urls": [
+            "http://stream.rcs.revma.com/kd198wm9q7uvv"
+        ]
+    },
+    "Hotmix K-Pop - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/ad445447r7uvv"
+        ]
+    },
+    "Hotmix Metal - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/18man6b2s7uvv"
+        ]
+    },
+    "Hotmix Movies - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/rm6w5zk9q7uvv"
+        ]
+    },
+    "Hotmix LoFi - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/6frwvt67r7uvv"
+        ]
+    },
+    "Hotmix 80 - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/hxt0rfc9q7uvv"
+        ]
+    },
+    "Hotmix 90 - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/f4yax3n4r7uvv"
+        ]
+    },
+    "Hotmix 2000 - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/s2a1w0n9q7uvv"
+        ]
+    },
+    "Hotmix 2010 - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/7suqapd6r7uvv"
+        ]
+    },
+    "Hotmix Classic Rock - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/375f4x21s7uvv"
+        ]
+    },
+    "Hotmix Classic Rap - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/dn7zmyt6r7uvv"
+        ]
+    },
+    "Hotmix Gaming - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/v3cqvep4r7uvv"
+        ]
+    },
+    "Hotmix Jazz - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/2vhwa247r7uvv"
+        ]
+    },
+    "Hotmix Pop Rock - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/g78mhyd2s7uvv"
+        ]
+    },
+    "Hotmix Tic Toc - Webradio": {
+        "urls": [
+            "http://stream.rcs.revma.com/a9n9hzh9q7uvv"
+        ]
+    },
+    "Hotmix Platinum 80s - 00s": {
+        "urls": [
+            "http://stream.rcs.revma.com/zqefzgc2s7uvv"
+        ]
+    },
+    "Hotmix Hip-Hop": {
+        "urls": [
+            "http://stream.rcs.revma.com/dxqzggk9q7uvv"
+        ]
+    },
+    "Hotmix Funk": {
+        "urls": [
+            "http://stream.rcs.revma.com/n6fezz41s7uvv"
+        ]
+    },
+    "Hotmix Electro Dance": {
+        "urls": [
+            "http://stream.rcs.revma.com/xvd09g41s7uvv"
+        ]
+    },
+    "Hotmix Dance": {
+        "urls": [
+            "http://stream.rcs.revma.com/k2bhfz31s7uvv"
+        ]
+    },
+    "Hotmix Acoustic Chill": {
+        "urls": [
+            "http://stream.rcs.revma.com/g3uqp8r6r7uvv"
+        ]
+    }
+}

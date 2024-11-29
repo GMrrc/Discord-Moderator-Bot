@@ -9,6 +9,7 @@
     "node-schedule": "^2.1.1",
     "openai": "^4.36.0",
     "path": "^0.12.7",
+    "play-dl": "^1.9.7",
     "sodium": "^3.0.2"
   }
 }

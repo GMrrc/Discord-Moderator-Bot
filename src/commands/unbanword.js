@@ -64,7 +64,7 @@ async function autocomplete(interaction, banwordManager) {
     const filtered = choices.filter(choice => choice.startsWith(focusedValue.toLowerCase()));
   
     await interaction.respond(
-        filtered.map(choice => ({ name: choice, value: choice }))
+        filtered.slice(0, 25).map(choice => ({ name: choice, value: choice }))
     );
 }
 

@@ -10,7 +10,6 @@ function commandData() {
 
 
 async function execute(interaction) {
-
     const guildId = interaction.guildId;
     const member = interaction.member;
 

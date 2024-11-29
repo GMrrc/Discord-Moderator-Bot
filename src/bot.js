@@ -96,6 +96,12 @@ function resetSpamIteration() {
 client.on('ready', () => {
   console.log(`bot.ready (SUCCESS) : Logged in as ${client.user.tag}!`);
   resetSpamIteration();
+
+  client.user.setPresence({
+    activities: [{ name: 'you', type: 'WATCHING' }],
+    status: 'online',
+  });
+
 });
 
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -257,6 +263,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     'stopsong': songManager,
     'skipsong': songManager,
     'songlist': songManager,
+    'playstream': songManager,
     'chat': guildMessages
   };
 
@@ -299,6 +306,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     }
   }
 });
+
 
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
 

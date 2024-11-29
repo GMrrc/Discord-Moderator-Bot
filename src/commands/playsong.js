@@ -9,7 +9,6 @@ const {
   createAudioPlayer,
   createAudioResource
 } = require('@discordjs/voice');
-const { error } = require('console');
 
 function commandData() {
   return new SlashCommandBuilder()
@@ -22,29 +21,36 @@ function commandData() {
 async function execute(interaction, songManager) {
   try {
     const guildId = interaction.guild.id;
+    const isPlaying = songManager.getPlayingSource(guildId);
+    if (isPlaying) {
+      interaction.reply({
+        content: 'Please wait for the current stream to finish playing.',
+        ephemeral: true
+      });
+      return;
+    }
+
+    // Vérifier si l'utilisateur est dans un canal vocal
+    const voiceChannel = interaction.member.voice.channel;
+    if (!voiceChannel) {
+        return await interaction.reply("You must be in a voice channel to use this command.");
+    }
+
     const url = interaction.options.getString('song');
 
     let player = songManager.getAudioPlayer(guildId);
     const isIdle = player.state.status === AudioPlayerStatus.Idle || player.state.status === AudioPlayerStatus.AutoPaused || player.state.status === AudioPlayerStatus.Paused;
 
-    if (isIdle) {
-      interaction.reply({
-        content: 'Loading the song ...',
-        ephemeral: true
-      });
-    } else {
-      interaction.reply({
-        content: 'Adding song to the queue',
-        ephemeral: true
-      });
-    }
+    interaction.reply({
+      content: isIdle ? 'Downloading the song...' : 'Song added to the queue.',
+      ephemeral: true
+    });
 
     const downloadData = {
       video_url: url,
       guild: guildId
     };
 
-    // Utilisation de .then() et .catch() pour gérer la requête Axios
     axios
       .post('http://127.0.0.1:5001/download_audio', downloadData)
       .then((response) => {
@@ -91,8 +97,6 @@ async function execute(interaction, songManager) {
   }
 }
 
-
-
 async function playNextSong(player, interaction, songManager, connection) {
   try {
     const guildId = interaction.guild.id;
@@ -104,6 +108,11 @@ async function playNextSong(player, interaction, songManager, connection) {
     }
 
     const song = await songManager.getSongQueue(guildId);
+    if (!song) {
+      player.stop();
+      songManager.delAudioPlayer(guildId);
+      return await interaction.followUp('No more songs to play.');
+    }
 
     const embedText = "Now playing : " + song.title;
     const embed = Utils.toEmbed(`Music Player`, embedText, 0xff1493);
@@ -120,6 +129,21 @@ async function playNextSong(player, interaction, songManager, connection) {
       });
       connection.subscribe(player);
     }
+
+    player.removeAllListeners(AudioPlayerStatus.Idle);
+    player.removeAllListeners(AudioPlayerStatus.Playing);
+
+    // New listener for playing state
+    player.once(AudioPlayerStatus.Playing, () => {
+      console.log('Song started playing');
+      songManager.removeSong(guildId);
+    });
+
+    // Listener for when playback is finished
+    player.once(AudioPlayerStatus.Idle, async () => {
+      console.log('Song finished, moving to next');
+      await playNextSong(player, interaction, songManager, connection);
+    });
 
     const key = song.url.replace(/\//g, '');
     const parentDirectory = path.resolve(__dirname, '../..');
@@ -144,8 +168,6 @@ async function playNextSong(player, interaction, songManager, connection) {
       }
     });
 
-    songManager.removeSong(guildId);
-
     setTimeout(() => {
       const dataDelete = {
         guild: guildId,
@@ -153,11 +175,6 @@ async function playNextSong(player, interaction, songManager, connection) {
       };
       axios.post('http://127.0.0.1:5001/delete', dataDelete);
     }, 5000);
-
-    player.removeAllListeners();
-    player.on(AudioPlayerStatus.Idle, () => {
-      playNextSong(player, interaction, songManager, connection);
-    });
 
   } catch (error) {
     console.error(`playsong.playNextSong (ERROR) : ` + error);

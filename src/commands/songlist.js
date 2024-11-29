@@ -32,7 +32,7 @@ async function execute(interaction, songManager) {
             const embed = Utils.toEmbed(`Music Player`, `List of songs in the queue:\n${songList}`, 0xff1493);
             await interaction.reply({ embeds: [embed] });
 
-            console.log('\tsonglist.execute (SUCCESS) : Displayed song list');
+            console.log('songlist.execute (SUCCESS) : Displayed song list');
         }
     } catch (error) {
         console.error(error);
