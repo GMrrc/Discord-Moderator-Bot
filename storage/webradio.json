@@ -149,6 +149,11 @@
             "https://nhk-radio.stream.laut.fm/nhk-radio"
         ]
     },
+    "Radio NOVA" : {
+        "urls": [
+            "https://novazz.ice.infomaniak.ch/novazz-128.mp3"
+        ]
+    },
     "J-Pop Sakura - asia DREAM radio": {
         "urls": [
             "https://cast1.torontocast.com:2170/;"
@@ -179,72 +184,72 @@
             "http://stream.rcs.revma.com/kd198wm9q7uvv"
         ]
     },
-    "Hotmix K-Pop - Webradio": {
+    "Hotmix K-Pop": {
         "urls": [
             "http://stream.rcs.revma.com/ad445447r7uvv"
         ]
     },
-    "Hotmix Metal - Webradio": {
+    "Hotmix Metal": {
         "urls": [
             "http://stream.rcs.revma.com/18man6b2s7uvv"
         ]
     },
-    "Hotmix Movies - Webradio": {
+    "Hotmix Movies": {
         "urls": [
             "http://stream.rcs.revma.com/rm6w5zk9q7uvv"
         ]
     },
-    "Hotmix LoFi - Webradio": {
+    "Hotmix LoFi": {
         "urls": [
             "http://stream.rcs.revma.com/6frwvt67r7uvv"
         ]
     },
-    "Hotmix 80 - Webradio": {
+    "Hotmix 80": {
         "urls": [
             "http://stream.rcs.revma.com/hxt0rfc9q7uvv"
         ]
     },
-    "Hotmix 90 - Webradio": {
+    "Hotmix 90": {
         "urls": [
             "http://stream.rcs.revma.com/f4yax3n4r7uvv"
         ]
     },
-    "Hotmix 2000 - Webradio": {
+    "Hotmix 2000": {
         "urls": [
             "http://stream.rcs.revma.com/s2a1w0n9q7uvv"
         ]
     },
-    "Hotmix 2010 - Webradio": {
+    "Hotmix 2010": {
         "urls": [
             "http://stream.rcs.revma.com/7suqapd6r7uvv"
         ]
     },
-    "Hotmix Classic Rock - Webradio": {
+    "Hotmix Classic Rock": {
         "urls": [
             "http://stream.rcs.revma.com/375f4x21s7uvv"
         ]
     },
-    "Hotmix Classic Rap - Webradio": {
+    "Hotmix Classic Rap": {
         "urls": [
             "http://stream.rcs.revma.com/dn7zmyt6r7uvv"
         ]
     },
-    "Hotmix Gaming - Webradio": {
+    "Hotmix Gaming": {
         "urls": [
             "http://stream.rcs.revma.com/v3cqvep4r7uvv"
         ]
     },
-    "Hotmix Jazz - Webradio": {
+    "Hotmix Jazz": {
         "urls": [
             "http://stream.rcs.revma.com/2vhwa247r7uvv"
         ]
     },
-    "Hotmix Pop Rock - Webradio": {
+    "Hotmix Pop Rock": {
         "urls": [
             "http://stream.rcs.revma.com/g78mhyd2s7uvv"
         ]
     },
-    "Hotmix Tic Toc - Webradio": {
+    "Hotmix Tic Toc": {
         "urls": [
             "http://stream.rcs.revma.com/a9n9hzh9q7uvv"
         ]

@@ -43,12 +43,12 @@ class SongManager {
     }
   }
 
-  addSong(guildId, songUrl, title) {
+  addSong(guildId, songUrl, title, key, fileformat) {
     if (!this.songQueue.has(guildId)) {
       this.songQueue.set(guildId, []);
     }
 
-    const data = { title: title, url: songUrl };
+    const data = { title: title, url: songUrl, key: key, fileformat: fileformat };
 
     this.songQueue.get(guildId).push(data);
     console.log('songManager.addSong (SUCCESS) : Added song to queue');

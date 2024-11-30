@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('discord.js');
-const { joinVoiceChannel, createAudioResource, createAudioPlayer, NoSubscriberBehavior, StreamType } = require('@discordjs/voice');
+const { joinVoiceChannel, createAudioResource, StreamType, AudioPlayerStatus } = require('@discordjs/voice');
 const { get: httpsGet, request: httpsRequest } = require('https');
 const { get: httpGet, request: httpRequest } = require('http');
 const { parse: parseUrl } = require('url');
@@ -145,15 +145,9 @@ async function execute(interaction, songManager) {
 
         // Création du player audio
         let player = songManager.getAudioPlayer(guildId);
-        if (!player) {
-            player = createAudioPlayer({
-                behaviors: {
-                    noSubscriber: NoSubscriberBehavior.Play,
-                },
-            });
-
-            songManager.setAudioPlayer(guildId, player);
-        }
+        player.on(AudioPlayerStatus.Idle, () => {
+            songManager.unsetPlaySource(guildId);
+        });
 
         // Création de la ressource audio
         const resource = createAudioResource(stream, {

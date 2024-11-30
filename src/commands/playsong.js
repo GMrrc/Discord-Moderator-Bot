@@ -46,9 +46,12 @@ async function execute(interaction, songManager) {
       ephemeral: true
     });
 
+    const key = Date.now() + Math.floor(Math.random() * 1000);
+
     const downloadData = {
       video_url: url,
-      guild: guildId
+      guild: guildId,
+      key: key
     };
 
     axios
@@ -63,7 +66,7 @@ async function execute(interaction, songManager) {
         }
 
         // Ajout de la chanson après une réponse réussie
-        songManager.addSong(guildId, url, response.data.title);
+        songManager.addSong(guildId, url, response.data.title, key, "opus");
 
         if (isIdle) {
           playNextSong(player, interaction, songManager);
@@ -111,6 +114,11 @@ async function playNextSong(player, interaction, songManager, connection) {
     if (!song) {
       player.stop();
       songManager.delAudioPlayer(guildId);
+      setTimeout(() => {
+        if (player.state.status === AudioPlayerStatus.Idle) {
+          songManager.deconnect(guildId);
+        }
+      }, 360000);
       return await interaction.followUp('No more songs to play.');
     }
 
@@ -142,12 +150,21 @@ async function playNextSong(player, interaction, songManager, connection) {
     // Listener for when playback is finished
     player.once(AudioPlayerStatus.Idle, async () => {
       console.log('Song finished, moving to next');
+      const dataDelete = {
+        guild: guildId,
+        video_url: song.url,
+        key: key,
+        fileformat: song.fileformat
+      };
+      axios.post('http://127.0.0.1:5001/delete', dataDelete);
       await playNextSong(player, interaction, songManager, connection);
     });
 
-    const key = song.url.replace(/\//g, '');
+    const key = song.key;
+    const fileformat = song.fileformat;
+
     const parentDirectory = path.resolve(__dirname, '../..');
-    const filePath = path.join(parentDirectory, `youtube_dl/save/${guildId}/${key}.opus`);
+    const filePath = path.join(parentDirectory, `youtube_dl/save/${guildId}/${key}.${fileformat}`);
 
     fs.access(filePath, fs.constants.F_OK, (err) => {
       if (err) {
@@ -167,15 +184,6 @@ async function playNextSong(player, interaction, songManager, connection) {
         player.play(resource);
       }
     });
-
-    setTimeout(() => {
-      const dataDelete = {
-        guild: guildId,
-        video_url: song.url,
-      };
-      axios.post('http://127.0.0.1:5001/delete', dataDelete);
-    }, 5000);
-
   } catch (error) {
     console.error(`playsong.playNextSong (ERROR) : ` + error);
   }

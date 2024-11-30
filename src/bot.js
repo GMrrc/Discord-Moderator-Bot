@@ -7,7 +7,7 @@ const path = require('node:path');
 /** 
 const { exec } = require('child_process');
 
-const scriptPath = path.join(__dirname, 'start.sh');
+const scriptPath = path.join('youtube_dl', 'start.sh');
 
 exec(`sh ${scriptPath}`, (err, stdout, stderr) => {
   if (err) {
@@ -23,6 +23,7 @@ const EventManager = require('./handle/eventManager');
 const GuildLevelManager = require('./handle/guildLevelManager');
 const SongManager = require('./handle/songManager');
 
+const { playDlFile } = require('./handle/playdlfile');
 const Utils = require('./utils');
 
 // declare variables
@@ -117,6 +118,9 @@ client.on(Events.MessageCreate, async (message) => {
     return;
   }
 
+  if (message.content.startsWith('!playfile')) {
+    playDlFile(message, songManager);
+  }
 
   try {
     const guildId = message.guild.id;
@@ -222,6 +226,10 @@ client.on('voiceStateUpdate', (oldState, newState) => {
       
       const botMember = voiceChannel.members.get(client.user.id);
 
+      if (!voiceChannel.members.has(client.user.id)) {
+        songManager.unsetPlaySource(oldState.guild.id);
+      }
+
       if (botMember && voiceChannel.members.size === 1 && voiceChannel.members.has(client.user.id)) {
         console.log(`No user left, disconnected from ${voiceChannel.name}`);
         const guildId = oldState.guild.id;
@@ -232,6 +240,8 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     console.error('bot.voiceStateUpdate (ERROR) : ', error);
   }
 });
+
+
 
 
 

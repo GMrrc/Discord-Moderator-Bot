@@ -72,11 +72,10 @@ def download_audio_route():
         data = request.json
         video_url = data.get('video_url')
         guild = data.get('guild')
+        key = data.get('key')
 
         if not video_url or not guild:
             return jsonify({'error': 'Missing video url or guild in request'}), 400
-        
-        key = video_url.replace("/", "")
         
         if not validator_url(video_url):
             video_url = get_first_youtube_video(video_url)
@@ -104,6 +103,8 @@ def delete():
     data = request.json
     guild = data.get('guild')
     url = data.get('video_url')
+    key = data.get('key')
+    fileformat = data.get('fileformat')
 
     if not guild:
         return jsonify({'error': 'Missing guild in request'}), 400
@@ -112,9 +113,8 @@ def delete():
         return jsonify({'error': 'Missing url in request'}), 400
 
     local_path = os.path.join(SAVE_PATH, guild)
-    key = url.replace("/", "")
-    if os.path.exists(os.path.join(local_path, f'{key}.opus')):
-        os.remove(os.path.join(local_path, f'{key}.opus'))
+    if os.path.exists(os.path.join(local_path, f'{key}.{fileformat}')):
+        os.remove(os.path.join(local_path, f'{key}.{fileformat}'))
         return jsonify({'message': 'File deleted successfully'}), 200
     
     else:
