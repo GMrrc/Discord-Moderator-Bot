@@ -5,1510 +5,52 @@
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 565-539-862
-127.0.0.1 - - [29/Nov/2024 12:14:33] "[31m[1mPOST /download_audio HTTP/1.1[0m" 400 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=dbjPnXaacAU
-[youtube] dbjPnXaacAU: Downloading webpage
-[youtube] dbjPnXaacAU: Downloading ios player API JSON
-[youtube] dbjPnXaacAU: Downloading android player API JSON
-[youtube] dbjPnXaacAU: Downloading player b46bb280
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = FNtb3dDwTu4AQx-l4Bv ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = RJzJ_t4cllsVz6VdlYz ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] dbjPnXaacAU: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=dbjPnXaacAU
-[youtube] dbjPnXaacAU: Downloading webpage
-[youtube] dbjPnXaacAU: Downloading ios player API JSON
-[youtube] dbjPnXaacAU: Downloading android player API JSON
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = ZJGzgZDz8roLblZMY35 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = q1ti0EUyH7NtEcGEP2r ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] dbjPnXaacAU: Downloading m3u8 information
-[info] dbjPnXaacAU: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/test.opus
-[download]   0.2% of  642.97KiB at  391.70KiB/s ETA 00:01[download]   0.5% of  642.97KiB at  928.15KiB/s ETA 00:00[download]   1.1% of  642.97KiB at    1.85MiB/s ETA 00:00[download]   2.3% of  642.97KiB at    3.49MiB/s ETA 00:00[download]   4.8% of  642.97KiB at    3.03MiB/s ETA 00:00[download]   9.8% of  642.97KiB at    3.55MiB/s ETA 00:00[download]  19.8% of  642.97KiB at    4.73MiB/s ETA 00:00[download]  39.7% of  642.97KiB at    7.04MiB/s ETA 00:00[download]  79.5% of  642.97KiB at   11.01MiB/s ETA 00:00[download] 100.0% of  642.97KiB at   13.08MiB/s ETA 00:00[download] 100% of  642.97KiB in 00:00:00 at 2.43MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/test.opus"
-127.0.0.1 - - [29/Nov/2024 12:17:50] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=gSyPvvpXcqI
+ * Debugger PIN: 939-453-095
+[YoutubeYtBe] Extracting URL: https://youtu.be/N3kkNfH4yco?list=RDN3kkNfH4yco
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=N3kkNfH4yco&list=RDN3kkNfH4yco&feature=youtu.be
+[youtube:tab] Downloading just the video N3kkNfH4yco because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=N3kkNfH4yco
+[youtube] N3kkNfH4yco: Downloading webpage
+[youtube] N3kkNfH4yco: Downloading tv client config
+[youtube] N3kkNfH4yco: Downloading player 9c6dfc4a
+[youtube] N3kkNfH4yco: Downloading tv player API JSON
+[youtube] N3kkNfH4yco: Downloading ios player API JSON
+[youtube] N3kkNfH4yco: Downloading m3u8 information
+[YoutubeYtBe] Extracting URL: https://youtu.be/N3kkNfH4yco?list=RDN3kkNfH4yco
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=N3kkNfH4yco&list=RDN3kkNfH4yco&feature=youtu.be
+[youtube:tab] Downloading just the video N3kkNfH4yco because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=N3kkNfH4yco
+[youtube] N3kkNfH4yco: Downloading webpage
+[youtube] N3kkNfH4yco: Downloading tv client config
+[youtube] N3kkNfH4yco: Downloading tv player API JSON
+[youtube] N3kkNfH4yco: Downloading ios player API JSON
+[youtube] N3kkNfH4yco: Downloading m3u8 information
+[info] N3kkNfH4yco: Downloading 1 format(s): 251
+[download] Destination: ./save/943192342188408842/1738880893405.opus
+[download]   0.0% of    3.03MiB at  709.10KiB/s ETA 00:04[download]   0.1% of    3.03MiB at    1.31MiB/s ETA 00:02[download]   0.2% of    3.03MiB at    2.46MiB/s ETA 00:01[download]   0.5% of    3.03MiB at    4.43MiB/s ETA 00:00[download]   1.0% of    3.03MiB at    7.23MiB/s ETA 00:00[download]   2.0% of    3.03MiB at    5.11MiB/s ETA 00:00[download]   4.1% of    3.03MiB at    6.54MiB/s ETA 00:00[download]   8.2% of    3.03MiB at    9.12MiB/s ETA 00:00[download]  16.5% of    3.03MiB at   13.71MiB/s ETA 00:00[download]  33.0% of    3.03MiB at   19.60MiB/s ETA 00:00[download]  66.0% of    3.03MiB at   27.86MiB/s ETA 00:00[download] 100.0% of    3.03MiB at   35.31MiB/s ETA 00:00[download] 100% of    3.03MiB in 00:00:00 at 20.02MiB/s  
+127.0.0.1 - - [06/Feb/2025 23:28:21] "POST /download_audio HTTP/1.1" 200 -
+[YoutubeYtBe] Extracting URL: https://youtu.be/yxkQ-jaCm-E?list=RDN3kkNfH4yco
 Download is completed successfully
-[youtube] gSyPvvpXcqI: Downloading webpage
-[youtube] gSyPvvpXcqI: Downloading ios player API JSON
-[youtube] gSyPvvpXcqI: Downloading android player API JSON
-[youtube] gSyPvvpXcqI: Downloading player b46bb280
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = 1JclzrcId1vzhM14e-l ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = 9tCLvfdPJ6pLj9OPWJW ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] gSyPvvpXcqI: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=gSyPvvpXcqI
-[youtube] gSyPvvpXcqI: Downloading webpage
-[youtube] gSyPvvpXcqI: Downloading ios player API JSON
-[youtube] gSyPvvpXcqI: Downloading android player API JSON
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = Otsw44IVzLMV_dI-rtx ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = itHrk0ag01AppBKtybs ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] gSyPvvpXcqI: Downloading m3u8 information
-[info] gSyPvvpXcqI: Downloading 1 format(s): 140
-[download] Destination: ./save/1252255762810667018/Credits song for my death (Bossfight Remix).opus
-[download]   0.0% of    3.48MiB at  136.35KiB/s ETA 00:26[download]   0.1% of    3.48MiB at  378.83KiB/s ETA 00:09[download]   0.2% of    3.48MiB at  834.47KiB/s ETA 00:04[download]   0.4% of    3.48MiB at    1.63MiB/s ETA 00:02[download]   0.9% of    3.48MiB at    3.03MiB/s ETA 00:01[download]   1.8% of    3.48MiB at    3.49MiB/s ETA 00:00[download]   3.6% of    3.48MiB at    4.91MiB/s ETA 00:00[download]   7.1% of    3.48MiB at    6.79MiB/s ETA 00:00[download]  14.3% of    3.48MiB at   10.71MiB/s ETA 00:00[download]  28.7% of    3.48MiB at   17.73MiB/s ETA 00:00[download]  57.4% of    3.48MiB at   29.64MiB/s ETA 00:00[download] 100.0% of    3.48MiB at   31.52MiB/s ETA 00:00[download] 100% of    3.48MiB in 00:00:00 at 9.52MiB/s   
-[FixupM4a] Correcting container of "./save/1252255762810667018/Credits song for my death (Bossfight Remix).opus"
-127.0.0.1 - - [29/Nov/2024 14:25:31] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 14:25:37] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=nIeVc1yE4TY
-Download is completed successfully
-[youtube] nIeVc1yE4TY: Downloading webpage
-[youtube] nIeVc1yE4TY: Downloading ios player API JSON
-[youtube] nIeVc1yE4TY: Downloading android player API JSON
-[youtube] nIeVc1yE4TY: Downloading player b46bb280
-WARNING: [youtube] nIeVc1yE4TY: nsig extraction failed: You may experience throttling for some formats
-         n = SNWmuuUNdvLofDcMtuS ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] nIeVc1yE4TY: nsig extraction failed: You may experience throttling for some formats
-         n = aNdD3lCw7v0-yHN0raL ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] nIeVc1yE4TY: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=nIeVc1yE4TY
-[youtube] nIeVc1yE4TY: Downloading webpage
-[youtube] nIeVc1yE4TY: Downloading ios player API JSON
-[youtube] nIeVc1yE4TY: Downloading android player API JSON
-WARNING: [youtube] nIeVc1yE4TY: nsig extraction failed: You may experience throttling for some formats
-         n = s1M8wWyLtvXxqAUSsy7 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] nIeVc1yE4TY: nsig extraction failed: You may experience throttling for some formats
-         n = XJMcTwH1iPJYSEhcraD ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] nIeVc1yE4TY: Downloading m3u8 information
-[info] nIeVc1yE4TY: Downloading 1 format(s): 140
-[download] Destination: ./save/1252255762810667018/NieR: Automata Official OST - Simone.opus
-[download]   0.0% of    8.36MiB at  131.25KiB/s ETA 01:05[download]   0.0% of    8.36MiB at  368.29KiB/s ETA 00:23[download]   0.1% of    8.36MiB at  813.12KiB/s ETA 00:10[download]   0.2% of    8.36MiB at    1.61MiB/s ETA 00:05[download]   0.4% of    8.36MiB at    2.94MiB/s ETA 00:02[download]   0.7% of    8.36MiB at    3.33MiB/s ETA 00:02[download]   1.5% of    8.36MiB at    4.61MiB/s ETA 00:01[download]   3.0% of    8.36MiB at    7.06MiB/s ETA 00:01[download]   6.0% of    8.36MiB at   11.13MiB/s ETA 00:00[download]  12.0% of    8.36MiB at   18.38MiB/s ETA 00:00[download]  23.9% of    8.36MiB at   30.82MiB/s ETA 00:00[download]  47.8% of    8.36MiB at   41.83MiB/s ETA 00:00[download]  95.7% of    8.36MiB at   57.95MiB/s ETA 00:00[download] 100.0% of    8.36MiB at   55.67MiB/s ETA 00:00[download] 100% of    8.36MiB in 00:00:00 at 18.94MiB/s  
-[FixupM4a] Correcting container of "./save/1252255762810667018/NieR: Automata Official OST - Simone.opus"
-127.0.0.1 - - [29/Nov/2024 14:31:33] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 14:31:39] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=x77Z7X9Zlyc
-Download is completed successfully
-[youtube] x77Z7X9Zlyc: Downloading webpage
-[youtube] x77Z7X9Zlyc: Downloading ios player API JSON
-[youtube] x77Z7X9Zlyc: Downloading android player API JSON
-[youtube] x77Z7X9Zlyc: Downloading player b46bb280
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = vJEimUBw2f2AUxhb8Rr ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = 2NR0gaY2FsFmoEAAT2w ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] x77Z7X9Zlyc: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=x77Z7X9Zlyc
-[youtube] x77Z7X9Zlyc: Downloading webpage
-[youtube] x77Z7X9Zlyc: Downloading ios player API JSON
-[youtube] x77Z7X9Zlyc: Downloading android player API JSON
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = ht_TNdC43-5H6tcZ-QA ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = UJts-_rngdoz-lsY_9z ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] x77Z7X9Zlyc: Downloading m3u8 information
-[info] x77Z7X9Zlyc: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/credit of my death.opus
-[download]   0.0% of    4.32MiB at  316.53KiB/s ETA 00:14[download]   0.1% of    4.32MiB at  815.43KiB/s ETA 00:05[download]   0.2% of    4.32MiB at    1.65MiB/s ETA 00:02[download]   0.3% of    4.32MiB at    3.17MiB/s ETA 00:01[download]   0.7% of    4.32MiB at    3.04MiB/s ETA 00:01[download]   1.4% of    4.32MiB at    3.57MiB/s ETA 00:01[download]   2.9% of    4.32MiB at    4.75MiB/s ETA 00:00[download]   5.8% of    4.32MiB at    7.15MiB/s ETA 00:00[download]  11.5% of    4.32MiB at   11.01MiB/s ETA 00:00[download]  23.1% of    4.32MiB at   18.33MiB/s ETA 00:00[download]  46.2% of    4.32MiB at   30.97MiB/s ETA 00:00[download]  92.5% of    4.32MiB at   47.60MiB/s ETA 00:00[download] 100.0% of    4.32MiB at   44.86MiB/s ETA 00:00[download] 100% of    4.32MiB in 00:00:00 at 10.84MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/credit of my death.opus"
-127.0.0.1 - - [29/Nov/2024 18:11:29] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 18:11:34] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=nTbyCYcHS6s
-Download is completed successfully
-[youtube] nTbyCYcHS6s: Downloading webpage
-[youtube] nTbyCYcHS6s: Downloading ios player API JSON
-[youtube] nTbyCYcHS6s: Downloading android player API JSON
-[youtube] nTbyCYcHS6s: Downloading player b46bb280
-WARNING: [youtube] nTbyCYcHS6s: nsig extraction failed: You may experience throttling for some formats
-         n = ctYkwHyQ3Ex8b5BeCjw ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] nTbyCYcHS6s: nsig extraction failed: You may experience throttling for some formats
-         n = I1W9WIov4GgjqiAhDUL ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] nTbyCYcHS6s: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=nTbyCYcHS6s
-[youtube] nTbyCYcHS6s: Downloading webpage
-[youtube] nTbyCYcHS6s: Downloading ios player API JSON
-[youtube] nTbyCYcHS6s: Downloading android player API JSON
-WARNING: [youtube] nTbyCYcHS6s: nsig extraction failed: You may experience throttling for some formats
-         n = AtQERop7TaIDwYaeSiq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] nTbyCYcHS6s: nsig extraction failed: You may experience throttling for some formats
-         n = rNfYUAaBroX76aaARaz ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] nTbyCYcHS6s: Downloading m3u8 information
-[info] nTbyCYcHS6s: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/nier automata alien manifestation.opus
-[download]   0.0% of    5.98MiB at  338.30KiB/s ETA 00:18[download]   0.0% of    5.98MiB at  859.14KiB/s ETA 00:07[download]   0.1% of    5.98MiB at    1.73MiB/s ETA 00:03[download]   0.2% of    5.98MiB at    3.30MiB/s ETA 00:01[download]   0.5% of    5.98MiB at    1.76MiB/s ETA 00:03[download]   1.0% of    5.98MiB at    2.12MiB/s ETA 00:02[download]   2.1% of    5.98MiB at    2.74MiB/s ETA 00:02[download]   4.2% of    5.98MiB at    3.88MiB/s ETA 00:01[download]   8.3% of    5.98MiB at    5.99MiB/s ETA 00:00[download]  16.7% of    5.98MiB at    9.66MiB/s ETA 00:00[download]  33.4% of    5.98MiB at   16.25MiB/s ETA 00:00[download]  66.8% of    5.98MiB at   25.38MiB/s ETA 00:00[download] 100.0% of    5.98MiB at   24.48MiB/s ETA 00:00[download] 100% of    5.98MiB in 00:00:00 at 10.82MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/nier automata alien manifestation.opus"
-127.0.0.1 - - [29/Nov/2024 18:11:49] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 18:14:05] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=dbjPnXaacAU
-Download is completed successfully
-[youtube] dbjPnXaacAU: Downloading webpage
-[youtube] dbjPnXaacAU: Downloading ios player API JSON
-[youtube] dbjPnXaacAU: Downloading android player API JSON
-[youtube] dbjPnXaacAU: Downloading player b46bb280
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = 2tz0kxokBwv3DEynPQz ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = eJmLeHI4d4c4fVbdGFJ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] dbjPnXaacAU: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=dbjPnXaacAU
-[youtube] dbjPnXaacAU: Downloading webpage
-[youtube] dbjPnXaacAU: Downloading ios player API JSON
-[youtube] dbjPnXaacAU: Downloading android player API JSON
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = 0taxiQZGFOhiyT4WBvx ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] dbjPnXaacAU: nsig extraction failed: You may experience throttling for some formats
-         n = 717NL9lHDBr1hPkhUGl ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] dbjPnXaacAU: Downloading m3u8 information
-[info] dbjPnXaacAU: Downloading 1 format(s): 140
-[download] ./save/943192342188408842/test.opus has already been downloaded
-[download] 100% of  642.59KiB
-127.0.0.1 - - [29/Nov/2024 20:49:18] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=vwoRZBGFH7g
-Download is completed successfully
-[youtube] vwoRZBGFH7g: Downloading webpage
-[youtube] vwoRZBGFH7g: Downloading ios player API JSON
-[youtube] vwoRZBGFH7g: Downloading android player API JSON
-[youtube] vwoRZBGFH7g: Downloading player b46bb280
-WARNING: [youtube] vwoRZBGFH7g: nsig extraction failed: You may experience throttling for some formats
-         n = EN4LB08YzYwHtfUr04e ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] vwoRZBGFH7g: nsig extraction failed: You may experience throttling for some formats
-         n = ItZbDsWBubs3RgnvTPx ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] vwoRZBGFH7g: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=vwoRZBGFH7g
-[youtube] vwoRZBGFH7g: Downloading webpage
-[youtube] vwoRZBGFH7g: Downloading ios player API JSON
-[youtube] vwoRZBGFH7g: Downloading android player API JSON
-WARNING: [youtube] vwoRZBGFH7g: nsig extraction failed: You may experience throttling for some formats
-         n = uNBuRYsqnUfWIfoe5H7 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] vwoRZBGFH7g: nsig extraction failed: You may experience throttling for some formats
-         n = YtyDZzz_RjQvi9QS-B1 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] vwoRZBGFH7g: Downloading m3u8 information
-[info] vwoRZBGFH7g: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/demogorgon stellar blade.opus
-[download]   0.0% of    8.55MiB at  189.80KiB/s ETA 00:46[download]   0.0% of    8.55MiB at  521.16KiB/s ETA 00:16[download]   0.1% of    8.55MiB at    1.09MiB/s ETA 00:07[download]   0.2% of    8.55MiB at    2.17MiB/s ETA 00:03[download]   0.4% of    8.55MiB at    1.32MiB/s ETA 00:06[download]   0.7% of    8.55MiB at    1.64MiB/s ETA 00:05[download]   1.5% of    8.55MiB at    2.29MiB/s ETA 00:03[download]   2.9% of    8.55MiB at    3.47MiB/s ETA 00:02[download]   5.8% of    8.55MiB at    5.56MiB/s ETA 00:01[download]  11.7% of    8.55MiB at    9.26MiB/s ETA 00:00[download]  23.4% of    8.55MiB at   15.76MiB/s ETA 00:00[download]  46.8% of    8.55MiB at    3.43MiB/s ETA 00:01[download]  69.3% of    8.55MiB at    5.00MiB/s ETA 00:00[download] 100.0% of    8.55MiB at    5.05MiB/s ETA 00:00[download] 100% of    8.55MiB in 00:00:02 at 3.95MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/demogorgon stellar blade.opus"
-127.0.0.1 - - [29/Nov/2024 21:55:38] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 21:55:43] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=loM5j4sOYD8
-Download is completed successfully
-[youtube] loM5j4sOYD8: Downloading webpage
-[youtube] loM5j4sOYD8: Downloading ios player API JSON
-[youtube] loM5j4sOYD8: Downloading android player API JSON
-[youtube] loM5j4sOYD8: Downloading player b46bb280
-WARNING: [youtube] loM5j4sOYD8: nsig extraction failed: You may experience throttling for some formats
-         n = WtTmNutQe0fJ30i4iJT ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] loM5j4sOYD8: nsig extraction failed: You may experience throttling for some formats
-         n = wN5MFeLhqwRZsf112Mz ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] loM5j4sOYD8: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=loM5j4sOYD8
-[youtube] loM5j4sOYD8: Downloading webpage
-[youtube] loM5j4sOYD8: Downloading ios player API JSON
-[youtube] loM5j4sOYD8: Downloading android player API JSON
-WARNING: [youtube] loM5j4sOYD8: nsig extraction failed: You may experience throttling for some formats
-         n = AJ6wiHTJtsp86LXgvB- ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] loM5j4sOYD8: nsig extraction failed: You may experience throttling for some formats
-         n = pJ-AYgzUasNmV6t-iPt ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] loM5j4sOYD8: Downloading m3u8 information
-[info] loM5j4sOYD8: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/stellar blade demogorgon boss theme ost.opus
-[download]   0.0% of    3.87MiB at  190.94KiB/s ETA 00:20[download]   0.1% of    3.87MiB at  518.37KiB/s ETA 00:07[download]   0.2% of    3.87MiB at    1.09MiB/s ETA 00:03[download]   0.4% of    3.87MiB at    2.17MiB/s ETA 00:01[download]   0.8% of    3.87MiB at    1.49MiB/s ETA 00:02[download]   1.6% of    3.87MiB at    1.65MiB/s ETA 00:02[download]   3.2% of    3.87MiB at    2.26MiB/s ETA 00:01[download]   6.4% of    3.87MiB at    3.41MiB/s ETA 00:01[download]  12.9% of    3.87MiB at    5.47MiB/s ETA 00:00[download]  25.8% of    3.87MiB at    9.20MiB/s ETA 00:00[download]  51.6% of    3.87MiB at   15.71MiB/s ETA 00:00[download] 100.0% of    3.87MiB at    6.30MiB/s ETA 00:00[download] 100% of    3.87MiB in 00:00:01 at 2.56MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/stellar blade demogorgon boss theme ost.opus"
-127.0.0.1 - - [29/Nov/2024 21:55:55] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 21:56:00] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=VxaFZqjhOfY
-Download is completed successfully
-[youtube] VxaFZqjhOfY: Downloading webpage
-[youtube] VxaFZqjhOfY: Downloading ios player API JSON
-[youtube] VxaFZqjhOfY: Downloading android player API JSON
-[youtube] VxaFZqjhOfY: Downloading player b46bb280
-WARNING: [youtube] VxaFZqjhOfY: nsig extraction failed: You may experience throttling for some formats
-         n = 5NZCgXZSkanfdLsFsLA ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] VxaFZqjhOfY: nsig extraction failed: You may experience throttling for some formats
-         n = 5JOUAoYgUQcD18zvEfD ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] VxaFZqjhOfY: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=VxaFZqjhOfY
-[youtube] VxaFZqjhOfY: Downloading webpage
-[youtube] VxaFZqjhOfY: Downloading ios player API JSON
-[youtube] VxaFZqjhOfY: Downloading android player API JSON
-WARNING: [youtube] VxaFZqjhOfY: nsig extraction failed: You may experience throttling for some formats
-         n = dNNCDjfSqDh5TqpzNbJ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] VxaFZqjhOfY: nsig extraction failed: You may experience throttling for some formats
-         n = 7tV7xduRPC6cRdK06AL ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] VxaFZqjhOfY: Downloading m3u8 information
-[info] VxaFZqjhOfY: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/stellar blade demovermine ost.opus
-[download]   0.0% of    6.14MiB at  359.38KiB/s ETA 00:17[download]   0.0% of    6.14MiB at  843.19KiB/s ETA 00:07[download]   0.1% of    6.14MiB at    1.66MiB/s ETA 00:03[download]   0.2% of    6.14MiB at    3.14MiB/s ETA 00:01[download]   0.5% of    6.14MiB at    1.74MiB/s ETA 00:03[download]   1.0% of    6.14MiB at    2.09MiB/s ETA 00:02[download]   2.0% of    6.14MiB at    2.69MiB/s ETA 00:02[download]   4.1% of    6.14MiB at    3.80MiB/s ETA 00:01[download]   8.1% of    6.14MiB at    5.86MiB/s ETA 00:00[download]  16.3% of    6.14MiB at    9.55MiB/s ETA 00:00[download]  32.5% of    6.14MiB at   16.03MiB/s ETA 00:00[download]  65.1% of    6.14MiB at   23.96MiB/s ETA 00:00[download] 100.0% of    6.14MiB at   30.92MiB/s ETA 00:00[download] 100% of    6.14MiB in 00:00:00 at 11.95MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/stellar blade demovermine ost.opus"
-127.0.0.1 - - [29/Nov/2024 22:00:25] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 22:00:30] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=j-exZaBDn8g
-Download is completed successfully
-[youtube] j-exZaBDn8g: Downloading webpage
-[youtube] j-exZaBDn8g: Downloading ios player API JSON
-[youtube] j-exZaBDn8g: Downloading android player API JSON
-[youtube] j-exZaBDn8g: Downloading player b46bb280
-WARNING: [youtube] j-exZaBDn8g: nsig extraction failed: You may experience throttling for some formats
-         n = OtPn1HalFor94YYHTU0 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] j-exZaBDn8g: nsig extraction failed: You may experience throttling for some formats
-         n = j1eWlJkyOrUQhi67o4S ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] j-exZaBDn8g: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=j-exZaBDn8g
-[youtube] j-exZaBDn8g: Downloading webpage
-[youtube] j-exZaBDn8g: Downloading ios player API JSON
-[youtube] j-exZaBDn8g: Downloading android player API JSON
-WARNING: [youtube] j-exZaBDn8g: nsig extraction failed: You may experience throttling for some formats
-         n = j1ZHVvkfS8MmELs0YRl ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] j-exZaBDn8g: nsig extraction failed: You may experience throttling for some formats
-         n = XtXcehj05N6DJMBKAVH ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] j-exZaBDn8g: Downloading m3u8 information
-[info] j-exZaBDn8g: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/anime kricket sound.opus
-[download]   0.0% of    3.69MiB at  330.03KiB/s ETA 00:11[download]   0.1% of    3.69MiB at  851.40KiB/s ETA 00:04[download]   0.2% of    3.69MiB at    1.72MiB/s ETA 00:02[download]   0.4% of    3.69MiB at    3.28MiB/s ETA 00:01[download]   0.8% of    3.69MiB at    2.52MiB/s ETA 00:01[download]   1.7% of    3.69MiB at    3.23MiB/s ETA 00:01[download]   3.4% of    3.69MiB at    4.40MiB/s ETA 00:00[download]   6.7% of    3.69MiB at    6.78MiB/s ETA 00:00[download]  13.5% of    3.69MiB at    9.22MiB/s ETA 00:00[download]  27.1% of    3.69MiB at    8.40MiB/s ETA 00:00[download]  54.2% of    3.69MiB at    8.57MiB/s ETA 00:00[download] 100.0% of    3.69MiB at   14.25MiB/s ETA 00:00[download] 100% of    3.69MiB in 00:00:00 at 7.35MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/anime kricket sound.opus"
-127.0.0.1 - - [29/Nov/2024 22:10:15] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 22:10:20] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=urxeNbBc1nk
-Download is completed successfully
-[youtube] urxeNbBc1nk: Downloading webpage
-[youtube] urxeNbBc1nk: Downloading ios player API JSON
-[youtube] urxeNbBc1nk: Downloading android player API JSON
-[youtube] urxeNbBc1nk: Downloading player b46bb280
-WARNING: [youtube] urxeNbBc1nk: nsig extraction failed: You may experience throttling for some formats
-         n = at5GJIrDMDjkOi_p-WI ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] urxeNbBc1nk: nsig extraction failed: You may experience throttling for some formats
-         n = RJWOq6sM0Z37JWbPOoW ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] urxeNbBc1nk: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=urxeNbBc1nk
-[youtube] urxeNbBc1nk: Downloading webpage
-[youtube] urxeNbBc1nk: Downloading ios player API JSON
-[youtube] urxeNbBc1nk: Downloading android player API JSON
-WARNING: [youtube] urxeNbBc1nk: nsig extraction failed: You may experience throttling for some formats
-         n = l1LMnm1kqaZ3MN-jVnA ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] urxeNbBc1nk: nsig extraction failed: You may experience throttling for some formats
-         n = 9tI9rREMkk9wG_dgsKp ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] urxeNbBc1nk: Downloading m3u8 information
-[info] urxeNbBc1nk: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/credit song of my death.opus
-[download]   0.0% of    2.65MiB at  291.80KiB/s ETA 00:09[download]   0.1% of    2.65MiB at  753.38KiB/s ETA 00:03[download]   0.3% of    2.65MiB at    1.53MiB/s ETA 00:01[download]   0.6% of    2.65MiB at    2.96MiB/s ETA 00:00[download]   1.1% of    2.65MiB at    2.57MiB/s ETA 00:01[download]   2.3% of    2.65MiB at    3.39MiB/s ETA 00:00[download]   4.7% of    2.65MiB at    4.56MiB/s ETA 00:00[download]   9.4% of    2.65MiB at    7.02MiB/s ETA 00:00[download]  18.9% of    2.65MiB at   11.27MiB/s ETA 00:00[download]  37.7% of    2.65MiB at   18.65MiB/s ETA 00:00[download]  75.5% of    2.65MiB at   30.89MiB/s ETA 00:00[download] 100.0% of    2.65MiB at   28.94MiB/s ETA 00:00[download] 100% of    2.65MiB in 00:00:00 at 7.92MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/credit song of my death.opus"
-127.0.0.1 - - [29/Nov/2024 23:37:16] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:37:21] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=gSyPvvpXcqI
-Download is completed successfully
-[youtube] gSyPvvpXcqI: Downloading webpage
-[youtube] gSyPvvpXcqI: Downloading ios player API JSON
-[youtube] gSyPvvpXcqI: Downloading android player API JSON
-[youtube] gSyPvvpXcqI: Downloading player b46bb280
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = XJ105tR2aTR88Qbj-HD ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = VtwVdawdO-3j-QVzE_x ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] gSyPvvpXcqI: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=gSyPvvpXcqI
-[youtube] gSyPvvpXcqI: Downloading webpage
-[youtube] gSyPvvpXcqI: Downloading ios player API JSON
-[youtube] gSyPvvpXcqI: Downloading android player API JSON
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = Ytt2UhLZ0fw4uNZfzWt ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] gSyPvvpXcqI: nsig extraction failed: You may experience throttling for some formats
-         n = sJNZq-JA-Ai_VNKuLqB ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] gSyPvvpXcqI: Downloading m3u8 information
-[info] gSyPvvpXcqI: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/credits song for my death remix.opus
-[download]   0.0% of    3.48MiB at  127.67KiB/s ETA 00:27[download]   0.1% of    3.48MiB at  357.84KiB/s ETA 00:09[download]   0.2% of    3.48MiB at  787.26KiB/s ETA 00:04[download]   0.4% of    3.48MiB at    1.56MiB/s ETA 00:02[download]   0.9% of    3.48MiB at    2.89MiB/s ETA 00:01[download]   1.8% of    3.48MiB at    3.39MiB/s ETA 00:01[download]   3.6% of    3.48MiB at    4.63MiB/s ETA 00:00[download]   7.1% of    3.48MiB at    7.09MiB/s ETA 00:00[download]  14.3% of    3.48MiB at   11.33MiB/s ETA 00:00[download]  28.7% of    3.48MiB at   18.47MiB/s ETA 00:00[download]  57.4% of    3.48MiB at   30.60MiB/s ETA 00:00[download] 100.0% of    3.48MiB at   35.42MiB/s ETA 00:00[download] 100% of    3.48MiB in 00:00:00 at 9.53MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/credits song for my death remix.opus"
-127.0.0.1 - - [29/Nov/2024 23:38:43] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:38:52] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Qp3b-RXtz4w
-Download is completed successfully
-[youtube] Qp3b-RXtz4w: Downloading webpage
-[youtube] Qp3b-RXtz4w: Downloading ios player API JSON
-[youtube] Qp3b-RXtz4w: Downloading android player API JSON
-[youtube] Qp3b-RXtz4w: Downloading player b46bb280
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = YJS8AZWhNYjYkCURL-t ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = DJ0PIPIDPYGMq4jlyX3 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Qp3b-RXtz4w: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Qp3b-RXtz4w
-[youtube] Qp3b-RXtz4w: Downloading webpage
-[youtube] Qp3b-RXtz4w: Downloading ios player API JSON
-[youtube] Qp3b-RXtz4w: Downloading android player API JSON
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = WJMOlTLqZU_38lRfSuh ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = HNCcR79mEy2jBA234eR ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Qp3b-RXtz4w: Downloading m3u8 information
-[info] Qp3b-RXtz4w: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/usseewa ado.opus
-[download]   0.0% of    3.13MiB at  123.01KiB/s ETA 00:26[download]   0.1% of    3.13MiB at  346.04KiB/s ETA 00:09[download]   0.2% of    3.13MiB at  765.46KiB/s ETA 00:04[download]   0.5% of    3.13MiB at    1.52MiB/s ETA 00:02[download]   1.0% of    3.13MiB at    2.76MiB/s ETA 00:01[download]   2.0% of    3.13MiB at    3.30MiB/s ETA 00:00[download]   4.0% of    3.13MiB at    4.56MiB/s ETA 00:00[download]   8.0% of    3.13MiB at    6.89MiB/s ETA 00:00[download]  15.9% of    3.13MiB at   10.84MiB/s ETA 00:00[download]  31.9% of    3.13MiB at   17.75MiB/s ETA 00:00[download]  63.8% of    3.13MiB at   29.52MiB/s ETA 00:00[download] 100.0% of    3.13MiB at   39.82MiB/s ETA 00:00[download] 100% of    3.13MiB in 00:00:00 at 9.06MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/usseewa ado.opus"
-127.0.0.1 - - [29/Nov/2024 23:42:23] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:42:38] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://youtu.be/8nW4jypamrA?si=MACCHiOakjOEGXxd
-Download is completed successfully
-[youtube] 8nW4jypamrA: Downloading webpage
-[youtube] 8nW4jypamrA: Downloading ios player API JSON
-[youtube] 8nW4jypamrA: Downloading android player API JSON
-[youtube] 8nW4jypamrA: Downloading player b46bb280
-WARNING: [youtube] 8nW4jypamrA: nsig extraction failed: You may experience throttling for some formats
-         n = ntZCQeQ0mT08_LfHOoG ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 8nW4jypamrA: nsig extraction failed: You may experience throttling for some formats
-         n = LNRzosJ3Z-RkEe9p53Y ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 8nW4jypamrA: Downloading m3u8 information
-[youtube] Extracting URL: https://youtu.be/8nW4jypamrA?si=MACCHiOakjOEGXxd
-[youtube] 8nW4jypamrA: Downloading webpage
-[youtube] 8nW4jypamrA: Downloading ios player API JSON
-[youtube] 8nW4jypamrA: Downloading android player API JSON
-WARNING: [youtube] 8nW4jypamrA: nsig extraction failed: You may experience throttling for some formats
-         n = rtdDWnL3GmvCKv03nfo ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 8nW4jypamrA: nsig extraction failed: You may experience throttling for some formats
-         n = lNixEpF0fr1DGkt1pz0 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 8nW4jypamrA: Downloading m3u8 information
-[info] 8nW4jypamrA: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:youtu.be8nW4jypamrA?si=MACCHiOakjOEGXxd.opus
-[download]   0.0% of    3.22MiB at  325.19KiB/s ETA 00:10[download]   0.1% of    3.22MiB at  833.25KiB/s ETA 00:03[download]   0.2% of    3.22MiB at    1.67MiB/s ETA 00:01[download]   0.5% of    3.22MiB at    3.19MiB/s ETA 00:01[download]   0.9% of    3.22MiB at    2.80MiB/s ETA 00:01[download]   1.9% of    3.22MiB at    3.40MiB/s ETA 00:00[download]   3.9% of    3.22MiB at    4.58MiB/s ETA 00:00[download]   7.7% of    3.22MiB at    6.93MiB/s ETA 00:00[download]  15.5% of    3.22MiB at   10.94MiB/s ETA 00:00[download]  31.0% of    3.22MiB at   15.48MiB/s ETA 00:00[download]  62.1% of    3.22MiB at   19.45MiB/s ETA 00:00[download] 100.0% of    3.22MiB at   21.05MiB/s ETA 00:00[download] 100% of    3.22MiB in 00:00:00 at 8.94MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:youtu.be8nW4jypamrA?si=MACCHiOakjOEGXxd.opus"
-127.0.0.1 - - [29/Nov/2024 23:46:17] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:46:22] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=BVDCZbt1Xl0
-Download is completed successfully
-[youtube] BVDCZbt1Xl0: Downloading webpage
-[youtube] BVDCZbt1Xl0: Downloading ios player API JSON
-[youtube] BVDCZbt1Xl0: Downloading android player API JSON
-[youtube] BVDCZbt1Xl0: Downloading player b46bb280
-WARNING: [youtube] BVDCZbt1Xl0: nsig extraction failed: You may experience throttling for some formats
-         n = o1wBU_jEicwAkldaKSj ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] BVDCZbt1Xl0: nsig extraction failed: You may experience throttling for some formats
-         n = nt_FzSW5sY1sJqAfVWI ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] BVDCZbt1Xl0: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=BVDCZbt1Xl0
-[youtube] BVDCZbt1Xl0: Downloading webpage
-[youtube] BVDCZbt1Xl0: Downloading ios player API JSON
-[youtube] BVDCZbt1Xl0: Downloading android player API JSON
-WARNING: [youtube] BVDCZbt1Xl0: nsig extraction failed: You may experience throttling for some formats
-         n = HNI3dRElRJAXKG7Ii0S ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] BVDCZbt1Xl0: nsig extraction failed: You may experience throttling for some formats
-         n = aNldvqF7f09ONb0XWvq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] BVDCZbt1Xl0: Downloading m3u8 information
-[info] BVDCZbt1Xl0: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/Jack de la tourette Country Version.opus
-[download]   0.1% of    1.82MiB at  135.41KiB/s ETA 00:13[download]   0.2% of    1.82MiB at  368.87KiB/s ETA 00:05[download]   0.4% of    1.82MiB at  814.52KiB/s ETA 00:02[download]   0.8% of    1.82MiB at    1.61MiB/s ETA 00:01[download]   1.7% of    1.82MiB at    2.91MiB/s ETA 00:00[download]   3.4% of    1.82MiB at    3.35MiB/s ETA 00:00[download]   6.8% of    1.82MiB at    4.68MiB/s ETA 00:00[download]  13.7% of    1.82MiB at    7.23MiB/s ETA 00:00[download]  27.4% of    1.82MiB at   11.47MiB/s ETA 00:00[download]  54.9% of    1.82MiB at   18.96MiB/s ETA 00:00[download] 100.0% of    1.82MiB at   29.11MiB/s ETA 00:00[download] 100% of    1.82MiB in 00:00:00 at 7.56MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/Jack de la tourette Country Version.opus"
-127.0.0.1 - - [29/Nov/2024 23:47:35] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:49:51] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KzKvPrIPVbE
-Download is completed successfully
-[youtube] KzKvPrIPVbE: Downloading webpage
-[youtube] KzKvPrIPVbE: Downloading ios player API JSON
-[youtube] KzKvPrIPVbE: Downloading android player API JSON
-[youtube] KzKvPrIPVbE: Downloading player b46bb280
-WARNING: [youtube] KzKvPrIPVbE: nsig extraction failed: You may experience throttling for some formats
-         n = FNDRvQW2XgL-fR1makX ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KzKvPrIPVbE: nsig extraction failed: You may experience throttling for some formats
-         n = VNps0hjo8TX_FOGgkD1 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KzKvPrIPVbE: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KzKvPrIPVbE
-[youtube] KzKvPrIPVbE: Downloading webpage
-[youtube] KzKvPrIPVbE: Downloading ios player API JSON
-[youtube] KzKvPrIPVbE: Downloading android player API JSON
-WARNING: [youtube] KzKvPrIPVbE: nsig extraction failed: You may experience throttling for some formats
-         n = oNMp6nIIl1H2UfA50Jn ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KzKvPrIPVbE: nsig extraction failed: You may experience throttling for some formats
-         n = K1Sh6R2-R1-43WKNBqg ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KzKvPrIPVbE: Downloading m3u8 information
-[info] KzKvPrIPVbE: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/Walcom to los san tos.opus
-[download]   0.0% of    2.31MiB at  135.07KiB/s ETA 00:17[download]   0.1% of    2.31MiB at  369.36KiB/s ETA 00:06[download]   0.3% of    2.31MiB at  804.94KiB/s ETA 00:02[download]   0.6% of    2.31MiB at    1.59MiB/s ETA 00:01[download]   1.3% of    2.31MiB at    3.01MiB/s ETA 00:00[download]   2.7% of    2.31MiB at    3.26MiB/s ETA 00:00[download]   5.4% of    2.31MiB at    4.58MiB/s ETA 00:00[download]  10.8% of    2.31MiB at    6.86MiB/s ETA 00:00[download]  21.6% of    2.31MiB at   11.15MiB/s ETA 00:00[download]  43.3% of    2.31MiB at   18.51MiB/s ETA 00:00[download]  86.6% of    2.31MiB at   30.97MiB/s ETA 00:00[download] 100.0% of    2.31MiB at   33.95MiB/s ETA 00:00[download] 100% of    2.31MiB in 00:00:00 at 7.54MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/Walcom to los san tos.opus"
-127.0.0.1 - - [29/Nov/2024 23:52:50] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:52:55] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=x77Z7X9Zlyc
-Download is completed successfully
-[youtube] x77Z7X9Zlyc: Downloading webpage
-[youtube] x77Z7X9Zlyc: Downloading ios player API JSON
-[youtube] x77Z7X9Zlyc: Downloading android player API JSON
-[youtube] x77Z7X9Zlyc: Downloading player b46bb280
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = zJwymjT9WbPcxg2c_m- ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = bNbjJdQxDb9lCLLeY1J ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] x77Z7X9Zlyc: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=x77Z7X9Zlyc
-[youtube] x77Z7X9Zlyc: Downloading webpage
-[youtube] x77Z7X9Zlyc: Downloading ios player API JSON
-[youtube] x77Z7X9Zlyc: Downloading android player API JSON
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = 9N8_NVuzCrhwC-Kz0P6 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] x77Z7X9Zlyc: nsig extraction failed: You may experience throttling for some formats
-         n = RJp33J6uxSaLtp6Y7TY ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] x77Z7X9Zlyc: Downloading m3u8 information
-[info] x77Z7X9Zlyc: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/credit song of my death but im the final boss.opus
-[download]   0.0% of    4.32MiB at  381.16KiB/s ETA 00:11[download]   0.1% of    4.32MiB at  883.69KiB/s ETA 00:05[download]   0.2% of    4.32MiB at    1.68MiB/s ETA 00:02[download]   0.3% of    4.32MiB at    3.06MiB/s ETA 00:01[download]   0.7% of    4.32MiB at    3.22MiB/s ETA 00:01[download]   1.4% of    4.32MiB at    3.66MiB/s ETA 00:01[download]   2.9% of    4.32MiB at    4.91MiB/s ETA 00:00[download]   5.8% of    4.32MiB at    7.44MiB/s ETA 00:00[download]  11.5% of    4.32MiB at   11.58MiB/s ETA 00:00[download]  23.1% of    4.32MiB at   19.19MiB/s ETA 00:00[download]  46.2% of    4.32MiB at   30.62MiB/s ETA 00:00[download]  92.5% of    4.32MiB at   46.38MiB/s ETA 00:00[download] 100.0% of    4.32MiB at   48.31MiB/s ETA 00:00[download] 100% of    4.32MiB in 00:00:00 at 13.70MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/credit song of my death but im the final boss.opus"
-127.0.0.1 - - [29/Nov/2024 23:53:00] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [29/Nov/2024 23:55:26] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Fu-ZxTHKeDg
-Download is completed successfully
-[youtube] Fu-ZxTHKeDg: Downloading webpage
-[youtube] Fu-ZxTHKeDg: Downloading ios player API JSON
-[youtube] Fu-ZxTHKeDg: Downloading android player API JSON
-[youtube] Fu-ZxTHKeDg: Downloading player b46bb280
-WARNING: [youtube] Fu-ZxTHKeDg: nsig extraction failed: You may experience throttling for some formats
-         n = StAlf0E7ds59L-ju8BM ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Fu-ZxTHKeDg: nsig extraction failed: You may experience throttling for some formats
-         n = jJhxX76mjEmR7em-_8E ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Fu-ZxTHKeDg: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Fu-ZxTHKeDg
-[youtube] Fu-ZxTHKeDg: Downloading webpage
-[youtube] Fu-ZxTHKeDg: Downloading ios player API JSON
-[youtube] Fu-ZxTHKeDg: Downloading android player API JSON
-WARNING: [youtube] Fu-ZxTHKeDg: nsig extraction failed: You may experience throttling for some formats
-         n = 8JXy4x5a5EwkP-DNgm1 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Fu-ZxTHKeDg: nsig extraction failed: You may experience throttling for some formats
-         n = 3tAg0B7xvfL8lhUxuCL ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Fu-ZxTHKeDg: Downloading m3u8 information
-[info] Fu-ZxTHKeDg: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=Fu-ZxTHKeDg.opus
-[download]   0.0% of    2.12MiB at  124.85KiB/s ETA 00:17[download]   0.1% of    2.12MiB at  352.23KiB/s ETA 00:06[download]   0.3% of    2.12MiB at  777.44KiB/s ETA 00:02[download]   0.7% of    2.12MiB at    1.52MiB/s ETA 00:01[download]   1.4% of    2.12MiB at    2.79MiB/s ETA 00:00[download]   2.9% of    2.12MiB at    3.16MiB/s ETA 00:00[download]   5.9% of    2.12MiB at    4.23MiB/s ETA 00:00[download]  11.8% of    2.12MiB at    6.35MiB/s ETA 00:00[download]  23.6% of    2.12MiB at   10.01MiB/s ETA 00:00[download]  47.2% of    2.12MiB at   16.00MiB/s ETA 00:00[download]  94.4% of    2.12MiB at   25.97MiB/s ETA 00:00[download] 100.0% of    2.12MiB at   26.92MiB/s ETA 00:00[download] 100% of    2.12MiB in 00:00:00 at 7.09MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=Fu-ZxTHKeDg.opus"
-127.0.0.1 - - [30/Nov/2024 09:41:21] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=YO5n6FUcwDA
-Download is completed successfully
-[youtube] YO5n6FUcwDA: Downloading webpage
-[youtube] YO5n6FUcwDA: Downloading ios player API JSON
-[youtube] YO5n6FUcwDA: Downloading android player API JSON
-[youtube] YO5n6FUcwDA: Downloading player b46bb280
-WARNING: [youtube] YO5n6FUcwDA: nsig extraction failed: You may experience throttling for some formats
-         n = gtizpoTUosV4CbYwNG_ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] YO5n6FUcwDA: nsig extraction failed: You may experience throttling for some formats
-         n = jJspDlwPldCfOqNW_RB ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] YO5n6FUcwDA: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=YO5n6FUcwDA
-[youtube] YO5n6FUcwDA: Downloading webpage
-127.0.0.1 - - [30/Nov/2024 09:41:27] "POST /delete HTTP/1.1" 200 -
-[youtube] YO5n6FUcwDA: Downloading ios player API JSON
-[youtube] YO5n6FUcwDA: Downloading android player API JSON
-WARNING: [youtube] YO5n6FUcwDA: nsig extraction failed: You may experience throttling for some formats
-         n = VJWaEzCsnfjHaFAXOR6 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] YO5n6FUcwDA: nsig extraction failed: You may experience throttling for some formats
-         n = iNnOxFlPb-EUSVmCZ6t ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] YO5n6FUcwDA: Downloading m3u8 information
-[info] YO5n6FUcwDA: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=YO5n6FUcwDA.opus
-[download]   0.0% of    3.93MiB at  133.73KiB/s ETA 00:30[download]   0.1% of    3.93MiB at  374.41KiB/s ETA 00:10[download]   0.2% of    3.93MiB at  826.79KiB/s ETA 00:04[download]   0.4% of    3.93MiB at    1.63MiB/s ETA 00:02[download]   0.8% of    3.93MiB at    2.92MiB/s ETA 00:01[download]   1.6% of    3.93MiB at    3.25MiB/s ETA 00:01[download]   3.2% of    3.93MiB at    4.61MiB/s ETA 00:00[download]   6.3% of    3.93MiB at    6.95MiB/s ETA 00:00[download]  12.7% of    3.93MiB at   11.00MiB/s ETA 00:00[download]  25.4% of    3.93MiB at   18.20MiB/s ETA 00:00[download]  50.9% of    3.93MiB at   30.29MiB/s ETA 00:00[download] 100.0% of    3.93MiB at   44.65MiB/s ETA 00:00[download] 100% of    3.93MiB in 00:00:00 at 10.68MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=YO5n6FUcwDA.opus"
-127.0.0.1 - - [30/Nov/2024 09:41:28] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 09:43:45] "POST /delete HTTP/1.1" 200 -
-[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=YOjTLgnGqD0&list=RDYO5n6FUcwDA&index=2
-Download is completed successfully
-[youtube:tab] Downloading just the video YOjTLgnGqD0 because of --no-playlist
-[youtube] Extracting URL: https://www.youtube.com/watch?v=YOjTLgnGqD0
-[youtube] YOjTLgnGqD0: Downloading webpage
-[youtube] YOjTLgnGqD0: Downloading ios player API JSON
-[youtube] YOjTLgnGqD0: Downloading android player API JSON
-[youtube] YOjTLgnGqD0: Downloading player b46bb280
-WARNING: [youtube] YOjTLgnGqD0: nsig extraction failed: You may experience throttling for some formats
-         n = XNExzKK9-R-eGuZ2sOM ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] YOjTLgnGqD0: nsig extraction failed: You may experience throttling for some formats
-         n = 9NL4cG4auLSbUhOV44n ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] YOjTLgnGqD0: Downloading m3u8 information
-[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=YOjTLgnGqD0&list=RDYO5n6FUcwDA&index=2
-[youtube:tab] Downloading just the video YOjTLgnGqD0 because of --no-playlist
-[youtube] Extracting URL: https://www.youtube.com/watch?v=YOjTLgnGqD0
-[youtube] YOjTLgnGqD0: Downloading webpage
-[youtube] YOjTLgnGqD0: Downloading ios player API JSON
-[youtube] YOjTLgnGqD0: Downloading android player API JSON
-WARNING: [youtube] YOjTLgnGqD0: nsig extraction failed: You may experience throttling for some formats
-         n = sJ-Ta9ZakItHmJuOnvY ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] YOjTLgnGqD0: nsig extraction failed: You may experience throttling for some formats
-         n = YJ2CD-2Osv73FU2TIPL ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] YOjTLgnGqD0: Downloading m3u8 information
-[info] YOjTLgnGqD0: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=YOjTLgnGqD0&list=RDYO5n6FUcwDA&index=2.opus
-[download]   0.0% of    2.71MiB at  121.69KiB/s ETA 00:22[download]   0.1% of    2.71MiB at  332.70KiB/s ETA 00:08[download]   0.3% of    2.71MiB at  736.54KiB/s ETA 00:03[download]   0.5% of    2.71MiB at    1.45MiB/s ETA 00:01[download]   1.1% of    2.71MiB at    2.82MiB/s ETA 00:00[download]   2.3% of    2.71MiB at    3.24MiB/s ETA 00:00[download]   4.6% of    2.71MiB at    4.58MiB/s ETA 00:00[download]   9.2% of    2.71MiB at    6.94MiB/s ETA 00:00[download]  18.4% of    2.71MiB at   11.03MiB/s ETA 00:00[download]  36.8% of    2.71MiB at   18.34MiB/s ETA 00:00[download]  73.7% of    2.71MiB at   30.40MiB/s ETA 00:00[download] 100.0% of    2.71MiB at   30.86MiB/s ETA 00:00[download] 100% of    2.71MiB in 00:00:00 at 9.72MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=YOjTLgnGqD0&list=RDYO5n6FUcwDA&index=2.opus"
-127.0.0.1 - - [30/Nov/2024 09:50:36] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 09:50:42] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=CtOGPDZbHZ8
-Download is completed successfully
-[youtube] CtOGPDZbHZ8: Downloading webpage
-[youtube] CtOGPDZbHZ8: Downloading ios player API JSON
-[youtube] CtOGPDZbHZ8: Downloading android player API JSON
-[youtube] CtOGPDZbHZ8: Downloading player b46bb280
-WARNING: [youtube] CtOGPDZbHZ8: nsig extraction failed: You may experience throttling for some formats
-         n = l1b3vsh5tExh7fWPy01 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] CtOGPDZbHZ8: nsig extraction failed: You may experience throttling for some formats
-         n = qNaQRiz4KEkpT6kuDYC ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] CtOGPDZbHZ8: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=CtOGPDZbHZ8
-[youtube] CtOGPDZbHZ8: Downloading webpage
-[youtube] CtOGPDZbHZ8: Downloading ios player API JSON
-[youtube] CtOGPDZbHZ8: Downloading android player API JSON
-WARNING: [youtube] CtOGPDZbHZ8: nsig extraction failed: You may experience throttling for some formats
-         n = Gtexv8BXtVq3Q7w_mV0 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] CtOGPDZbHZ8: nsig extraction failed: You may experience throttling for some formats
-         n = WN5VGvwgatNKix2BAxI ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] CtOGPDZbHZ8: Downloading m3u8 information
-[info] CtOGPDZbHZ8: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/sonic mania boss theme ruby delusion.opus
-[download]   0.0% of   27.78MiB at  189.75KiB/s ETA 02:30[download]   0.0% of   27.78MiB at  517.43KiB/s ETA 00:55[download]   0.0% of   27.78MiB at    1.07MiB/s ETA 00:25[download]   0.1% of   27.78MiB at    2.12MiB/s ETA 00:13[download]   0.1% of   27.78MiB at    1.35MiB/s ETA 00:20[download]   0.2% of   27.78MiB at    1.65MiB/s ETA 00:16[download]   0.4% of   27.78MiB at    2.25MiB/s ETA 00:12[download]   0.9% of   27.78MiB at    3.38MiB/s ETA 00:08[download]   1.8% of   27.78MiB at    5.50MiB/s ETA 00:04[download]   3.6% of   27.78MiB at    9.22MiB/s ETA 00:02[download]   7.2% of   27.78MiB at   15.72MiB/s ETA 00:01[download]  14.4% of   27.78MiB at   26.90MiB/s ETA 00:00[download]  28.8% of   27.78MiB at   37.55MiB/s ETA 00:00[download]  35.8% of   27.78MiB at   42.64MiB/s ETA 00:00[download]  35.8% of   27.78MiB at  Unknown B/s ETA Unknown[download]  35.8% of   27.78MiB at  Unknown B/s ETA Unknown[download]  35.8% of   27.78MiB at    5.40MiB/s ETA 00:03  [download]  35.8% of   27.78MiB at    7.71MiB/s ETA 00:02[download]  35.9% of   27.78MiB at   10.75MiB/s ETA 00:01[download]  36.0% of   27.78MiB at   16.74MiB/s ETA 00:01[download]  36.2% of   27.78MiB at   25.59MiB/s ETA 00:00[download]  36.7% of   27.78MiB at   37.04MiB/s ETA 00:00[download]  37.6% of   27.78MiB at   50.82MiB/s ETA 00:00[download]  39.4% of   27.78MiB at   64.58MiB/s ETA 00:00[download]  43.0% of   27.78MiB at   81.76MiB/s ETA 00:00[download]  50.2% of   27.78MiB at   74.82MiB/s ETA 00:00[download]  64.6% of   27.78MiB at   56.35MiB/s ETA 00:00[download]  71.4% of   27.78MiB at   40.40MiB/s ETA 00:00[download]  71.4% of   27.78MiB at  Unknown B/s ETA Unknown[download]  71.4% of   27.78MiB at    2.89MiB/s ETA 00:02  [download]  71.4% of   27.78MiB at    4.53MiB/s ETA 00:01[download]  71.5% of   27.78MiB at    7.32MiB/s ETA 00:01[download]  71.5% of   27.78MiB at   10.89MiB/s ETA 00:00[download]  71.6% of   27.78MiB at   17.42MiB/s ETA 00:00[download]  71.9% of   27.78MiB at   27.63MiB/s ETA 00:00[download]  72.3% of   27.78MiB at    8.90MiB/s ETA 00:00[download]  73.2% of   27.78MiB at   16.07MiB/s ETA 00:00[download]  75.0% of   27.78MiB at   27.24MiB/s ETA 00:00[download]  78.6% of   27.78MiB at   42.82MiB/s ETA 00:00[download]  85.8% of   27.78MiB at   48.55MiB/s ETA 00:00[download] 100.0% of   27.78MiB at   41.48MiB/s ETA 00:00[download] 100% of   27.78MiB in 00:00:01 at 16.57MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/sonic mania boss theme ruby delusion.opus"
-127.0.0.1 - - [30/Nov/2024 10:09:21] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 10:09:27] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Qp3b-RXtz4w
-Download is completed successfully
-[youtube] Qp3b-RXtz4w: Downloading webpage
-[youtube] Qp3b-RXtz4w: Downloading ios player API JSON
-[youtube] Qp3b-RXtz4w: Downloading android player API JSON
-[youtube] Qp3b-RXtz4w: Downloading player b46bb280
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = j1n-fDKux-8D4fgsBWf ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = aNd2GD4382ONacsB8rq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Qp3b-RXtz4w: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Qp3b-RXtz4w
-[youtube] Qp3b-RXtz4w: Downloading webpage
-[youtube] Qp3b-RXtz4w: Downloading ios player API JSON
-[youtube] Qp3b-RXtz4w: Downloading android player API JSON
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = Rtupk7hEcLcxEvb3xdp ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Qp3b-RXtz4w: nsig extraction failed: You may experience throttling for some formats
-         n = 0tN8BG5QX1WYLsmnlWJ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Qp3b-RXtz4w: Downloading m3u8 information
-[info] Qp3b-RXtz4w: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/usseewa ado.opus
-[download]   0.0% of    3.13MiB at  322.74KiB/s ETA 00:09[download]   0.1% of    3.13MiB at  835.08KiB/s ETA 00:03[download]   0.2% of    3.13MiB at    1.69MiB/s ETA 00:01[download]   0.5% of    3.13MiB at    3.22MiB/s ETA 00:00[download]   1.0% of    3.13MiB at    3.13MiB/s ETA 00:00[download]   2.0% of    3.13MiB at    3.38MiB/s ETA 00:00[download]   4.0% of    3.13MiB at    4.67MiB/s ETA 00:00[download]   8.0% of    3.13MiB at    7.15MiB/s ETA 00:00[download]  15.9% of    3.13MiB at   11.40MiB/s ETA 00:00[download]  31.9% of    3.13MiB at   18.69MiB/s ETA 00:00[download]  63.8% of    3.13MiB at   30.01MiB/s ETA 00:00[download] 100.0% of    3.13MiB at   40.06MiB/s ETA 00:00[download] 100% of    3.13MiB in 00:00:00 at 11.18MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/usseewa ado.opus"
-127.0.0.1 - - [30/Nov/2024 13:40:07] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 13:40:12] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=i0avdvFMghs
-Download is completed successfully
-[youtube] i0avdvFMghs: Downloading webpage
-[youtube] i0avdvFMghs: Downloading ios player API JSON
-[youtube] i0avdvFMghs: Downloading android player API JSON
-[youtube] i0avdvFMghs: Downloading player b46bb280
-WARNING: [youtube] i0avdvFMghs: nsig extraction failed: You may experience throttling for some formats
-         n = stHVIH7ynjidsxZ5pww ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] i0avdvFMghs: nsig extraction failed: You may experience throttling for some formats
-         n = x1TTqwsL5Uyhhr9KfzC ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] i0avdvFMghs: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=i0avdvFMghs
-[youtube] i0avdvFMghs: Downloading webpage
-[youtube] i0avdvFMghs: Downloading ios player API JSON
-[youtube] i0avdvFMghs: Downloading android player API JSON
-WARNING: [youtube] i0avdvFMghs: nsig extraction failed: You may experience throttling for some formats
-         n = mNPp60SQK6nmcAbexu9 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] i0avdvFMghs: nsig extraction failed: You may experience throttling for some formats
-         n = VJao4KTyCUAwp4BA27U ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] i0avdvFMghs: Downloading m3u8 information
-[info] i0avdvFMghs: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/ma meilleure ennemie stromae.opus
-[download]   0.0% of    2.27MiB at  131.05KiB/s ETA 00:17[download]   0.1% of    2.27MiB at  362.84KiB/s ETA 00:06[download]   0.3% of    2.27MiB at  799.35KiB/s ETA 00:02[download]   0.6% of    2.27MiB at    1.58MiB/s ETA 00:01[download]   1.3% of    2.27MiB at    3.05MiB/s ETA 00:00[download]   2.7% of    2.27MiB at    3.51MiB/s ETA 00:00[download]   5.5% of    2.27MiB at    4.74MiB/s ETA 00:00[download]  11.0% of    2.27MiB at    7.05MiB/s ETA 00:00[download]  22.0% of    2.27MiB at   11.19MiB/s ETA 00:00[download]  44.0% of    2.27MiB at   18.47MiB/s ETA 00:00[download]  88.0% of    2.27MiB at   30.53MiB/s ETA 00:00[download] 100.0% of    2.27MiB at   33.11MiB/s ETA 00:00[download] 100% of    2.27MiB in 00:00:00 at 7.70MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/ma meilleure ennemie stromae.opus"
-127.0.0.1 - - [30/Nov/2024 15:31:45] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 15:31:50] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=xy_NKN75Jhw
-Download is completed successfully
-[youtube] xy_NKN75Jhw: Downloading webpage
-[youtube] xy_NKN75Jhw: Downloading ios player API JSON
-[youtube] xy_NKN75Jhw: Downloading android player API JSON
-[youtube] xy_NKN75Jhw: Downloading player b46bb280
-WARNING: [youtube] xy_NKN75Jhw: nsig extraction failed: You may experience throttling for some formats
-         n = aJGxRsSoMw00cRu6lwy ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] xy_NKN75Jhw: nsig extraction failed: You may experience throttling for some formats
-         n = sJYHa4N_zpWbPsvZEeE ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] xy_NKN75Jhw: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=xy_NKN75Jhw
-[youtube] xy_NKN75Jhw: Downloading webpage
-[youtube] xy_NKN75Jhw: Downloading ios player API JSON
-[youtube] xy_NKN75Jhw: Downloading android player API JSON
-WARNING: [youtube] xy_NKN75Jhw: nsig extraction failed: You may experience throttling for some formats
-         n = ltm-cMdcydVooWIIvw_ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] xy_NKN75Jhw: nsig extraction failed: You may experience throttling for some formats
-         n = xJgjUXvJoZPZcG8BWyx ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] xy_NKN75Jhw: Downloading m3u8 information
-[info] xy_NKN75Jhw: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/ascenseur waiting song.opus
-[download]   0.0% of    2.93MiB at  129.64KiB/s ETA 00:23[download]   0.1% of    2.93MiB at  363.35KiB/s ETA 00:08[download]   0.2% of    2.93MiB at  802.41KiB/s ETA 00:03[download]   0.5% of    2.93MiB at    1.57MiB/s ETA 00:01[download]   1.0% of    2.93MiB at    2.86MiB/s ETA 00:01[download]   2.1% of    2.93MiB at    3.29MiB/s ETA 00:00[download]   4.2% of    2.93MiB at    4.68MiB/s ETA 00:00[download]   8.5% of    2.93MiB at    7.16MiB/s ETA 00:00[download]  17.0% of    2.93MiB at   11.38MiB/s ETA 00:00[download]  34.1% of    2.93MiB at   18.81MiB/s ETA 00:00[download]  68.2% of    2.93MiB at   31.51MiB/s ETA 00:00[download] 100.0% of    2.93MiB at   40.36MiB/s ETA 00:00[download] 100% of    2.93MiB in 00:00:00 at 9.48MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/ascenseur waiting song.opus"
-127.0.0.1 - - [30/Nov/2024 15:38:43] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 15:38:48] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=9MMAsbpbFkE
-Download is completed successfully
-[youtube] 9MMAsbpbFkE: Downloading webpage
-[youtube] 9MMAsbpbFkE: Downloading ios player API JSON
-[youtube] 9MMAsbpbFkE: Downloading android player API JSON
-[youtube] 9MMAsbpbFkE: Downloading player b46bb280
-WARNING: [youtube] 9MMAsbpbFkE: nsig extraction failed: You may experience throttling for some formats
-         n = Z1SH2nXO_hF7MCc4VfC ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 9MMAsbpbFkE: nsig extraction failed: You may experience throttling for some formats
-         n = htoLz3IeFGQNK2wz3kv ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 9MMAsbpbFkE: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=9MMAsbpbFkE
-[youtube] 9MMAsbpbFkE: Downloading webpage
-[youtube] 9MMAsbpbFkE: Downloading ios player API JSON
-[youtube] 9MMAsbpbFkE: Downloading android player API JSON
-WARNING: [youtube] 9MMAsbpbFkE: nsig extraction failed: You may experience throttling for some formats
-         n = fNe8LLG3gJVjHLF5RGj ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 9MMAsbpbFkE: nsig extraction failed: You may experience throttling for some formats
-         n = GNa8W6Es_vsKb7ulosp ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 9MMAsbpbFkE: Downloading m3u8 information
-[info] 9MMAsbpbFkE: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/stellar blade elevator ost.opus
-[download]   0.0% of    7.60MiB at  182.22KiB/s ETA 00:42[download]   0.0% of    7.60MiB at  498.95KiB/s ETA 00:15[download]   0.1% of    7.60MiB at    1.06MiB/s ETA 00:07[download]   0.2% of    7.60MiB at    2.11MiB/s ETA 00:03[download]   0.4% of    7.60MiB at    1.28MiB/s ETA 00:05[download]   0.8% of    7.60MiB at    1.62MiB/s ETA 00:04[download]   1.6% of    7.60MiB at    2.17MiB/s ETA 00:03[download]   3.3% of    7.60MiB at    3.27MiB/s ETA 00:02[download]   6.6% of    7.60MiB at    5.24MiB/s ETA 00:01[download]  13.2% of    7.60MiB at    8.73MiB/s ETA 00:00[download]  26.3% of    7.60MiB at   14.97MiB/s ETA 00:00[download]  52.7% of    7.60MiB at   25.64MiB/s ETA 00:00[download] 100.0% of    7.60MiB at   34.82MiB/s ETA 00:00[download] 100% of    7.60MiB in 00:00:00 at 10.39MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/stellar blade elevator ost.opus"
-127.0.0.1 - - [30/Nov/2024 15:47:28] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 15:47:33] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=JaLpzyw4q3w
-Download is completed successfully
-[youtube] JaLpzyw4q3w: Downloading webpage
-[youtube] JaLpzyw4q3w: Downloading ios player API JSON
-[youtube] JaLpzyw4q3w: Downloading android player API JSON
-[youtube] JaLpzyw4q3w: Downloading player b46bb280
-WARNING: [youtube] JaLpzyw4q3w: nsig extraction failed: You may experience throttling for some formats
-         n = 9JqV9LkCe4pL0CAaeei ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] JaLpzyw4q3w: nsig extraction failed: You may experience throttling for some formats
-         n = XJ9IfBZ3fDrLPTLvtoh ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] JaLpzyw4q3w: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=JaLpzyw4q3w
-[youtube] JaLpzyw4q3w: Downloading webpage
-[youtube] JaLpzyw4q3w: Downloading ios player API JSON
-[youtube] JaLpzyw4q3w: Downloading android player API JSON
-WARNING: [youtube] JaLpzyw4q3w: nsig extraction failed: You may experience throttling for some formats
-         n = ZJrDBVZGQe5U4QrXu7G ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] JaLpzyw4q3w: nsig extraction failed: You may experience throttling for some formats
-         n = PJM-c9netiSP4cQipuf ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] JaLpzyw4q3w: Downloading m3u8 information
-[info] JaLpzyw4q3w: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/rescue girl.opus
-[download]   0.0% of    3.36MiB at  302.55KiB/s ETA 00:11[download]   0.1% of    3.36MiB at  790.43KiB/s ETA 00:04[download]   0.2% of    3.36MiB at    1.61MiB/s ETA 00:02[download]   0.4% of    3.36MiB at    3.09MiB/s ETA 00:01[download]   0.9% of    3.36MiB at    3.00MiB/s ETA 00:01[download]   1.8% of    3.36MiB at    3.42MiB/s ETA 00:00[download]   3.7% of    3.36MiB at    4.85MiB/s ETA 00:00[download]   7.4% of    3.36MiB at    7.27MiB/s ETA 00:00[download]  14.8% of    3.36MiB at   11.43MiB/s ETA 00:00[download]  29.7% of    3.36MiB at   18.85MiB/s ETA 00:00[download]  59.4% of    3.36MiB at   31.02MiB/s ETA 00:00[download] 100.0% of    3.36MiB at   41.19MiB/s ETA 00:00[download] 100% of    3.36MiB in 00:00:00 at 9.67MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/rescue girl.opus"
-127.0.0.1 - - [30/Nov/2024 15:47:51] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 15:55:48] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://youtu.be/0XKV6KRSFoQ
-Download is completed successfully
-[youtube] 0XKV6KRSFoQ: Downloading webpage
-[youtube] 0XKV6KRSFoQ: Downloading ios player API JSON
-[youtube] 0XKV6KRSFoQ: Downloading android player API JSON
-[youtube] 0XKV6KRSFoQ: Downloading player b46bb280
-WARNING: [youtube] 0XKV6KRSFoQ: nsig extraction failed: You may experience throttling for some formats
-         n = ktcedTB8YVdfOTJvzGQ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 0XKV6KRSFoQ: nsig extraction failed: You may experience throttling for some formats
-         n = pJE3YLPXp0StHgDylfN ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 0XKV6KRSFoQ: Downloading m3u8 information
-[youtube] Extracting URL: https://youtu.be/0XKV6KRSFoQ
-[youtube] 0XKV6KRSFoQ: Downloading webpage
-[youtube] 0XKV6KRSFoQ: Downloading ios player API JSON
-[youtube] 0XKV6KRSFoQ: Downloading android player API JSON
-WARNING: [youtube] 0XKV6KRSFoQ: nsig extraction failed: You may experience throttling for some formats
-         n = wJZaYROED4mZsvKmDKW ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 0XKV6KRSFoQ: nsig extraction failed: You may experience throttling for some formats
-         n = IJVTilUZYnRDbd7noM8 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 0XKV6KRSFoQ: Downloading m3u8 information
-[info] 0XKV6KRSFoQ: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:youtu.be0XKV6KRSFoQ.opus
-[download]   0.0% of    5.76MiB at  195.81KiB/s ETA 00:30[download]   0.1% of    5.76MiB at  526.31KiB/s ETA 00:11[download]   0.1% of    5.76MiB at    1.10MiB/s ETA 00:05[download]   0.3% of    5.76MiB at    2.19MiB/s ETA 00:02[download]   0.5% of    5.76MiB at    2.87MiB/s ETA 00:01[download]   1.1% of    5.76MiB at    3.03MiB/s ETA 00:01[download]   2.2% of    5.76MiB at    4.43MiB/s ETA 00:01[download]   4.3% of    5.76MiB at    6.70MiB/s ETA 00:00[download]   8.7% of    5.76MiB at   10.65MiB/s ETA 00:00[download]  17.3% of    5.76MiB at   17.87MiB/s ETA 00:00[download]  34.7% of    5.76MiB at   29.78MiB/s ETA 00:00[download]  69.4% of    5.76MiB at   44.11MiB/s ETA 00:00[download] 100.0% of    5.76MiB at   52.03MiB/s ETA 00:00[download] 100% of    5.76MiB in 00:00:00 at 15.26MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/https:youtu.be0XKV6KRSFoQ.opus"
-127.0.0.1 - - [30/Nov/2024 16:08:25] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 16:08:30] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=a5uQMwRMHcs
-Download is completed successfully
-[youtube] a5uQMwRMHcs: Downloading webpage
-[youtube] a5uQMwRMHcs: Downloading ios player API JSON
-[youtube] a5uQMwRMHcs: Downloading android player API JSON
-[youtube] a5uQMwRMHcs: Downloading player b46bb280
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = KNqe28qU07OVM-BEXYr ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = qtYqFxVFr4nOyoWX-_c ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] a5uQMwRMHcs: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=a5uQMwRMHcs
-[youtube] a5uQMwRMHcs: Downloading webpage
-[youtube] a5uQMwRMHcs: Downloading ios player API JSON
-[youtube] a5uQMwRMHcs: Downloading android player API JSON
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = RNX8rky2L7aVaWua5As ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = A1tjVOnZaZH0yuu-yB2 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] a5uQMwRMHcs: Downloading m3u8 information
-[info] a5uQMwRMHcs: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/daft punk instant crush.opus
-[download]   0.0% of    5.25MiB at  141.87KiB/s ETA 00:37[download]   0.1% of    5.25MiB at  395.73KiB/s ETA 00:13[download]   0.1% of    5.25MiB at  854.88KiB/s ETA 00:06[download]   0.3% of    5.25MiB at    1.67MiB/s ETA 00:03[download]   0.6% of    5.25MiB at    3.12MiB/s ETA 00:01[download]   1.2% of    5.25MiB at    3.57MiB/s ETA 00:01[download]   2.4% of    5.25MiB at    4.83MiB/s ETA 00:01[download]   4.7% of    5.25MiB at    7.30MiB/s ETA 00:00[download]   9.5% of    5.25MiB at   11.46MiB/s ETA 00:00[download]  19.0% of    5.25MiB at   18.78MiB/s ETA 00:00[download]  38.1% of    5.25MiB at   31.03MiB/s ETA 00:00[download]  76.2% of    5.25MiB at   46.17MiB/s ETA 00:00[download] 100.0% of    5.25MiB at   53.01MiB/s ETA 00:00[download] 100% of    5.25MiB in 00:00:00 at 15.16MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/daft punk instant crush.opus"
-127.0.0.1 - - [30/Nov/2024 17:51:11] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 17:51:17] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=FrfJcgeYMN4
-Download is completed successfully
-[youtube] FrfJcgeYMN4: Downloading webpage
-[youtube] FrfJcgeYMN4: Downloading ios player API JSON
-[youtube] FrfJcgeYMN4: Downloading android player API JSON
-[youtube] FrfJcgeYMN4: Downloading player b46bb280
-WARNING: [youtube] FrfJcgeYMN4: nsig extraction failed: You may experience throttling for some formats
-         n = qJwcM2u4vLb9AmdMoc5 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] FrfJcgeYMN4: nsig extraction failed: You may experience throttling for some formats
-         n = 4J4FzYQoKRDBTEwGFSQ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] FrfJcgeYMN4: Downloading m3u8 information
-127.0.0.1 - - [30/Nov/2024 17:55:51] "[31m[1mPOST /download_audio HTTP/1.1[0m" 400 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=sPBzSq3yGbw
-[youtube] sPBzSq3yGbw: Downloading webpage
-[youtube] sPBzSq3yGbw: Downloading ios player API JSON
-[youtube] sPBzSq3yGbw: Downloading android player API JSON
-[youtube] sPBzSq3yGbw: Downloading player b46bb280
-WARNING: [youtube] sPBzSq3yGbw: nsig extraction failed: You may experience throttling for some formats
-         n = Ytd9ZyEBQvVtclZhS9f ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] sPBzSq3yGbw: nsig extraction failed: You may experience throttling for some formats
-         n = UtTVwimD4_EB3DoJ549 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] sPBzSq3yGbw: Downloading m3u8 information
-127.0.0.1 - - [30/Nov/2024 17:56:04] "[31m[1mPOST /download_audio HTTP/1.1[0m" 400 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KJNLGEqv950
-[youtube] KJNLGEqv950: Downloading webpage
-[youtube] KJNLGEqv950: Downloading ios player API JSON
-[youtube] KJNLGEqv950: Downloading android player API JSON
-[youtube] KJNLGEqv950: Downloading player b46bb280
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = ctpRCbEfwIDslUqtI5S ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = JJgjeacLjlwbIyl3UiS ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KJNLGEqv950: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KJNLGEqv950
-[youtube] KJNLGEqv950: Downloading webpage
-[youtube] KJNLGEqv950: Downloading ios player API JSON
-[youtube] KJNLGEqv950: Downloading android player API JSON
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = GtjU8xIWz3PrjnLOvVM ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = -JQdkTu41leepnSjIag ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KJNLGEqv950: Downloading m3u8 information
-[info] KJNLGEqv950: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=KJNLGEqv950.opus
-[download]   0.0% of   10.49MiB at  172.05KiB/s ETA 01:02[download]   0.0% of   10.49MiB at  474.06KiB/s ETA 00:22[download]   0.1% of   10.49MiB at    1.01MiB/s ETA 00:10[download]   0.1% of   10.49MiB at    2.02MiB/s ETA 00:05[download]   0.3% of   10.49MiB at    1.70MiB/s ETA 00:06[download]   0.6% of   10.49MiB at    1.70MiB/s ETA 00:06[download]   1.2% of   10.49MiB at    2.33MiB/s ETA 00:04[download]   2.4% of   10.49MiB at    3.46MiB/s ETA 00:02[download]   4.8% of   10.49MiB at    5.55MiB/s ETA 00:01[download]   9.5% of   10.49MiB at    9.16MiB/s ETA 00:01[download]  19.0% of   10.49MiB at   11.78MiB/s ETA 00:00[download]  38.1% of   10.49MiB at   20.99MiB/s ETA 00:00[download]  76.2% of   10.49MiB at   11.54MiB/s ETA 00:00[download]  95.1% of   10.49MiB at   14.03MiB/s ETA 00:00[download]  95.1% of   10.49MiB at  Unknown B/s ETA Unknown[download]  95.2% of   10.49MiB at  Unknown B/s ETA Unknown[download]  95.2% of   10.49MiB at    5.37MiB/s ETA 00:00  [download]  95.3% of   10.49MiB at    7.51MiB/s ETA 00:00[download]  95.4% of   10.49MiB at   11.47MiB/s ETA 00:00[download]  95.7% of   10.49MiB at   17.82MiB/s ETA 00:00[download]  96.3% of   10.49MiB at   27.60MiB/s ETA 00:00[download]  97.5% of   10.49MiB at   41.15MiB/s ETA 00:00[download]  99.9% of   10.49MiB at   58.09MiB/s ETA 00:00[download] 100.0% of   10.49MiB at   55.56MiB/s ETA 00:00[download] 100% of   10.49MiB in 00:00:01 at 6.69MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=KJNLGEqv950.opus"
-127.0.0.1 - - [30/Nov/2024 18:04:03] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 18:04:08] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=IKLAzMveazA
-Download is completed successfully
-[youtube] IKLAzMveazA: Downloading webpage
-[youtube] IKLAzMveazA: Downloading ios player API JSON
-[youtube] IKLAzMveazA: Downloading android player API JSON
-[youtube] IKLAzMveazA: Downloading player b46bb280
-WARNING: [youtube] IKLAzMveazA: nsig extraction failed: You may experience throttling for some formats
-         n = eJAgGTtxHscqg_MzTsF ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] IKLAzMveazA: nsig extraction failed: You may experience throttling for some formats
-         n = n1Fyj0XqjvfQDZ5B_fx ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] IKLAzMveazA: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=IKLAzMveazA
-[youtube] IKLAzMveazA: Downloading webpage
-[youtube] IKLAzMveazA: Downloading ios player API JSON
-[youtube] IKLAzMveazA: Downloading android player API JSON
-WARNING: [youtube] IKLAzMveazA: nsig extraction failed: You may experience throttling for some formats
-         n = CJsVxkIU1SNeomJUclF ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] IKLAzMveazA: nsig extraction failed: You may experience throttling for some formats
-         n = fJWMXRoP58fEUNPBJ66 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] IKLAzMveazA: Downloading m3u8 information
-[info] IKLAzMveazA: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=IKLAzMveazA.opus
-[download]   0.0% of   22.42MiB at  288.29KiB/s ETA 01:19[download]   0.0% of   22.42MiB at  748.40KiB/s ETA 00:30[download]   0.0% of   22.42MiB at    1.51MiB/s ETA 00:14[download]   0.1% of   22.42MiB at    2.92MiB/s ETA 00:07[download]   0.1% of   22.42MiB at    1.65MiB/s ETA 00:13[download]   0.3% of   22.42MiB at    1.95MiB/s ETA 00:11[download]   0.6% of   22.42MiB at    2.52MiB/s ETA 00:08[download]   1.1% of   22.42MiB at    3.68MiB/s ETA 00:06[download]   2.2% of   22.42MiB at    5.77MiB/s ETA 00:03[download]   4.5% of   22.42MiB at    9.43MiB/s ETA 00:02[download]   8.9% of   22.42MiB at    4.10MiB/s ETA 00:04[download]  17.8% of   22.42MiB at    5.05MiB/s ETA 00:03[download]  35.7% of   22.42MiB at    2.86MiB/s ETA 00:05[download]  44.1% of   22.42MiB at    3.39MiB/s ETA 00:03[download]  44.1% of   22.42MiB at  Unknown B/s ETA Unknown[download]  44.1% of   22.42MiB at  Unknown B/s ETA Unknown[download]  44.1% of   22.42MiB at    5.44MiB/s ETA 00:02  [download]  44.1% of   22.42MiB at    8.17MiB/s ETA 00:01[download]  44.2% of   22.42MiB at   12.33MiB/s ETA 00:01[download]  44.3% of   22.42MiB at   18.90MiB/s ETA 00:00[download]  44.6% of   22.42MiB at  781.51KiB/s ETA 00:16[download]  45.2% of   22.42MiB at    1.45MiB/s ETA 00:08[download]  46.3% of   22.42MiB at    2.66MiB/s ETA 00:04[download]  48.5% of   22.42MiB at    4.52MiB/s ETA 00:02[download]  53.0% of   22.42MiB at    6.96MiB/s ETA 00:01[download]  61.9% of   22.42MiB at    7.67MiB/s ETA 00:01[download]  79.7% of   22.42MiB at    6.29MiB/s ETA 00:00[download]  86.9% of   22.42MiB at    6.16MiB/s ETA 00:00[download]  86.9% of   22.42MiB at  Unknown B/s ETA Unknown[download]  86.9% of   22.42MiB at  Unknown B/s ETA Unknown[download]  86.9% of   22.42MiB at    5.74MiB/s ETA 00:00  [download]  86.9% of   22.42MiB at    8.51MiB/s ETA 00:00[download]  87.0% of   22.42MiB at   12.72MiB/s ETA 00:00[download]  87.2% of   22.42MiB at   19.35MiB/s ETA 00:00[download]  87.4% of   22.42MiB at   26.27MiB/s ETA 00:00[download]  88.0% of   22.42MiB at   16.28MiB/s ETA 00:00[download]  89.1% of   22.42MiB at   17.92MiB/s ETA 00:00[download]  91.3% of   22.42MiB at    4.07MiB/s ETA 00:00[download]  95.8% of   22.42MiB at    6.35MiB/s ETA 00:00[download] 100.0% of   22.42MiB at    6.81MiB/s ETA 00:00[download] 100% of   22.42MiB in 00:00:05 at 4.08MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=IKLAzMveazA.opus"
-127.0.0.1 - - [30/Nov/2024 18:24:10] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 18:24:16] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=UlH2umVQgWw&t=512s
-Download is completed successfully
-[youtube] UlH2umVQgWw: Downloading webpage
-[youtube] UlH2umVQgWw: Downloading ios player API JSON
-[youtube] UlH2umVQgWw: Downloading android player API JSON
-[youtube] UlH2umVQgWw: Downloading player b46bb280
-WARNING: [youtube] UlH2umVQgWw: nsig extraction failed: You may experience throttling for some formats
-         n = 9t9QTkWJu60o0jikHnl ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] UlH2umVQgWw: nsig extraction failed: You may experience throttling for some formats
-         n = ItWpzEsBRyf2QIncODk ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] UlH2umVQgWw: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=UlH2umVQgWw&t=512s
-[youtube] UlH2umVQgWw: Downloading webpage
-[youtube] UlH2umVQgWw: Downloading ios player API JSON
-[youtube] UlH2umVQgWw: Downloading android player API JSON
-WARNING: [youtube] UlH2umVQgWw: nsig extraction failed: You may experience throttling for some formats
-         n = H1Tpdn0w0yrK4RFwAzj ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] UlH2umVQgWw: nsig extraction failed: You may experience throttling for some formats
-         n = et9jIhWRTqHO5HJOF0z ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] UlH2umVQgWw: Downloading m3u8 information
-[info] UlH2umVQgWw: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=UlH2umVQgWw&t=512s.opus
-[download]   0.0% of   42.36MiB at  327.45KiB/s ETA 02:12[download]   0.0% of   42.36MiB at  840.88KiB/s ETA 00:51[download]   0.0% of   42.36MiB at    1.70MiB/s ETA 00:24[download]   0.0% of   42.36MiB at    3.25MiB/s ETA 00:13[download]   0.1% of   42.36MiB at    2.76MiB/s ETA 00:15[download]   0.1% of   42.36MiB at    3.48MiB/s ETA 00:12[download]   0.3% of   42.36MiB at    4.56MiB/s ETA 00:09[download]   0.6% of   42.36MiB at    6.89MiB/s ETA 00:06[download]   1.2% of   42.36MiB at   11.07MiB/s ETA 00:03[download]   2.4% of   42.36MiB at   18.31MiB/s ETA 00:02[download]   4.7% of   42.36MiB at   30.30MiB/s ETA 00:01[download]   9.4% of   42.36MiB at   46.50MiB/s ETA 00:00[download]  18.9% of   42.36MiB at   57.67MiB/s ETA 00:00[download]  23.0% of   42.36MiB at   61.64MiB/s ETA 00:00[download]  23.0% of   42.36MiB at  Unknown B/s ETA Unknown[download]  23.0% of   42.36MiB at  Unknown B/s ETA Unknown[download]  23.0% of   42.36MiB at    5.51MiB/s ETA 00:05  [download]  23.1% of   42.36MiB at    8.30MiB/s ETA 00:03[download]  23.1% of   42.36MiB at   12.82MiB/s ETA 00:02[download]  23.2% of   42.36MiB at   18.51MiB/s ETA 00:01[download]  23.3% of   42.36MiB at   28.80MiB/s ETA 00:01[download]  23.6% of   42.36MiB at    6.41MiB/s ETA 00:05[download]  24.2% of   42.36MiB at   11.92MiB/s ETA 00:02[download]  25.4% of   42.36MiB at   21.11MiB/s ETA 00:01[download]  27.7% of   42.36MiB at   34.55MiB/s ETA 00:00[download]  32.5% of   42.36MiB at   43.44MiB/s ETA 00:00[download]  41.9% of   42.36MiB at   50.87MiB/s ETA 00:00[download]  45.9% of   42.36MiB at   55.67MiB/s ETA 00:00[download]  45.9% of   42.36MiB at  Unknown B/s ETA Unknown[download]  45.9% of   42.36MiB at  Unknown B/s ETA Unknown[download]  45.9% of   42.36MiB at    5.23MiB/s ETA 00:04  [download]  45.9% of   42.36MiB at    7.70MiB/s ETA 00:02[download]  46.0% of   42.36MiB at   11.56MiB/s ETA 00:01[download]  46.0% of   42.36MiB at   16.68MiB/s ETA 00:01[download]  46.2% of   42.36MiB at   25.81MiB/s ETA 00:00[download]  46.5% of   42.36MiB at   39.63MiB/s ETA 00:00[download]  47.1% of   42.36MiB at   57.19MiB/s ETA 00:00[download]  48.3% of   42.36MiB at   35.11MiB/s ETA 00:00[download]  50.6% of   42.36MiB at   49.76MiB/s ETA 00:00[download]  55.3% of   42.36MiB at   56.42MiB/s ETA 00:00[download]  64.8% of   42.36MiB at   42.17MiB/s ETA 00:00[download]  69.2% of   42.36MiB at   44.30MiB/s ETA 00:00[download]  69.2% of   42.36MiB at  Unknown B/s ETA Unknown[download]  69.2% of   42.36MiB at  Unknown B/s ETA Unknown[download]  69.2% of   42.36MiB at    5.65MiB/s ETA 00:02  [download]  69.3% of   42.36MiB at    8.14MiB/s ETA 00:01[download]  69.3% of   42.36MiB at   12.13MiB/s ETA 00:01[download]  69.4% of   42.36MiB at   18.35MiB/s ETA 00:00[download]  69.5% of   42.36MiB at   26.59MiB/s ETA 00:00[download]  69.8% of   42.36MiB at   39.71MiB/s ETA 00:00[download]  70.4% of   42.36MiB at   56.28MiB/s ETA 00:00[download]  71.6% of   42.36MiB at   40.34MiB/s ETA 00:00[download]  73.9% of   42.36MiB at   56.56MiB/s ETA 00:00[download]  78.7% of   42.36MiB at   56.81MiB/s ETA 00:00[download]  88.1% of   42.36MiB at   55.26MiB/s ETA 00:00[download]  91.9% of   42.36MiB at   58.52MiB/s ETA 00:00[download]  91.9% of   42.36MiB at  Unknown B/s ETA Unknown[download]  91.9% of   42.36MiB at  Unknown B/s ETA Unknown[download]  91.9% of   42.36MiB at    4.75MiB/s ETA 00:00  [download]  91.9% of   42.36MiB at    7.26MiB/s ETA 00:00[download]  91.9% of   42.36MiB at   11.02MiB/s ETA 00:00[download]  92.0% of   42.36MiB at   16.81MiB/s ETA 00:00[download]  92.2% of   42.36MiB at   25.71MiB/s ETA 00:00[download]  92.4% of   42.36MiB at   37.55MiB/s ETA 00:00[download]  93.0% of   42.36MiB at   51.97MiB/s ETA 00:00[download]  94.2% of   42.36MiB at   70.65MiB/s ETA 00:00[download]  96.6% of   42.36MiB at   52.34MiB/s ETA 00:00[download] 100.0% of   42.36MiB at   39.29MiB/s ETA 00:00[download] 100% of   42.36MiB in 00:00:01 at 32.54MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=UlH2umVQgWw&t=512s.opus"
-127.0.0.1 - - [30/Nov/2024 18:26:37] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 18:26:42] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KJNLGEqv950
-Download is completed successfully
-[youtube] KJNLGEqv950: Downloading webpage
-[youtube] KJNLGEqv950: Downloading ios player API JSON
-[youtube] KJNLGEqv950: Downloading android player API JSON
-[youtube] KJNLGEqv950: Downloading player b46bb280
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = 5JsksB3Omwfb4eAly1z ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = GNZsqDHNVxXbG4picQI ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KJNLGEqv950: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=KJNLGEqv950
-[youtube] KJNLGEqv950: Downloading webpage
-[youtube] KJNLGEqv950: Downloading ios player API JSON
-[youtube] KJNLGEqv950: Downloading android player API JSON
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = VNdy10PJyPt6bstIDiK ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] KJNLGEqv950: nsig extraction failed: You may experience throttling for some formats
-         n = Z1F5eMEKvOa-qKw_vZ5 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] KJNLGEqv950: Downloading m3u8 information
-[info] KJNLGEqv950: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=KJNLGEqv950.opus
-[download]   0.0% of   10.49MiB at  197.81KiB/s ETA 00:54[download]   0.0% of   10.49MiB at  537.94KiB/s ETA 00:19[download]   0.1% of   10.49MiB at    1.13MiB/s ETA 00:09[download]   0.1% of   10.49MiB at    2.22MiB/s ETA 00:04[download]   0.3% of   10.49MiB at    1.36MiB/s ETA 00:07[download]   0.6% of   10.49MiB at    1.67MiB/s ETA 00:06[download]   1.2% of   10.49MiB at    2.26MiB/s ETA 00:04[download]   2.4% of   10.49MiB at    3.39MiB/s ETA 00:03[download]   4.8% of   10.49MiB at    5.51MiB/s ETA 00:01[download]   9.5% of   10.49MiB at    9.22MiB/s ETA 00:01[download]  19.0% of   10.49MiB at   10.80MiB/s ETA 00:00[download]  38.1% of   10.49MiB at   19.37MiB/s ETA 00:00[download]  76.2% of   10.49MiB at   15.55MiB/s ETA 00:00[download]  93.9% of   10.49MiB at   18.48MiB/s ETA 00:00[download]  93.9% of   10.49MiB at  Unknown B/s ETA Unknown[download]  93.9% of   10.49MiB at  Unknown B/s ETA Unknown[download]  93.9% of   10.49MiB at    5.22MiB/s ETA 00:00  [download]  94.0% of   10.49MiB at    8.21MiB/s ETA 00:00[download]  94.2% of   10.49MiB at   12.71MiB/s ETA 00:00[download]  94.4% of   10.49MiB at   19.64MiB/s ETA 00:00[download]  95.0% of   10.49MiB at   29.93MiB/s ETA 00:00[download]  96.2% of   10.49MiB at   11.12MiB/s ETA 00:00[download]  98.6% of   10.49MiB at   19.37MiB/s ETA 00:00[download] 100.0% of   10.49MiB at   23.55MiB/s ETA 00:00[download] 100% of   10.49MiB in 00:00:01 at 8.29MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=KJNLGEqv950.opus"
-127.0.0.1 - - [30/Nov/2024 18:33:36] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 18:33:41] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=ChZSwtmWcpE
-Download is completed successfully
-[youtube] ChZSwtmWcpE: Downloading webpage
-[youtube] ChZSwtmWcpE: Downloading ios player API JSON
-[youtube] ChZSwtmWcpE: Downloading android player API JSON
-[youtube] ChZSwtmWcpE: Downloading player b46bb280
-WARNING: [youtube] ChZSwtmWcpE: nsig extraction failed: You may experience throttling for some formats
-         n = f1EozxNyMwl-SJPkbhr ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] ChZSwtmWcpE: nsig extraction failed: You may experience throttling for some formats
-         n = ctfkZnl2dXjJ4pSIs-t ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] ChZSwtmWcpE: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=ChZSwtmWcpE
-[youtube] ChZSwtmWcpE: Downloading webpage
-[youtube] ChZSwtmWcpE: Downloading ios player API JSON
-[youtube] ChZSwtmWcpE: Downloading android player API JSON
-WARNING: [youtube] ChZSwtmWcpE: nsig extraction failed: You may experience throttling for some formats
-         n = Ht_ChmgYTpeMU4pK9Mu ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] ChZSwtmWcpE: nsig extraction failed: You may experience throttling for some formats
-         n = 11uKSTVMbUPRFsxMU0Q ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] ChZSwtmWcpE: Downloading m3u8 information
-[info] ChZSwtmWcpE: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/papa's lullaby made in abyss ost.opus
-[download]   0.0% of    2.77MiB at  195.88KiB/s ETA 00:14[download]   0.1% of    2.77MiB at  534.67KiB/s ETA 00:05[download]   0.2% of    2.77MiB at    1.13MiB/s ETA 00:02[download]   0.5% of    2.77MiB at    2.24MiB/s ETA 00:01[download]   1.1% of    2.77MiB at    1.33MiB/s ETA 00:02[download]   2.2% of    2.77MiB at    1.53MiB/s ETA 00:01[download]   4.5% of    2.77MiB at    1.97MiB/s ETA 00:01[download]   9.0% of    2.77MiB at    3.00MiB/s ETA 00:00[download]  18.0% of    2.77MiB at    4.61MiB/s ETA 00:00[download]  36.1% of    2.77MiB at    7.55MiB/s ETA 00:00[download]  72.1% of    2.77MiB at   12.49MiB/s ETA 00:00[download] 100.0% of    2.77MiB at   16.00MiB/s ETA 00:00[download] 100% of    2.77MiB in 00:00:00 at 3.46MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/papa's lullaby made in abyss ost.opus"
-127.0.0.1 - - [30/Nov/2024 18:47:00] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 18:47:05] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=aahViYznVTQ
-Download is completed successfully
-[youtube] aahViYznVTQ: Downloading webpage
-[youtube] aahViYznVTQ: Downloading ios player API JSON
-[youtube] aahViYznVTQ: Downloading android player API JSON
-[youtube] aahViYznVTQ: Downloading player b46bb280
-WARNING: [youtube] aahViYznVTQ: nsig extraction failed: You may experience throttling for some formats
-         n = kNO6E2flPfNAsu9b3_q ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] aahViYznVTQ: nsig extraction failed: You may experience throttling for some formats
-         n = V1cthpq7zXzj0hMHiEf ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] aahViYznVTQ: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=aahViYznVTQ
-[youtube] aahViYznVTQ: Downloading webpage
-[youtube] aahViYznVTQ: Downloading ios player API JSON
-[youtube] aahViYznVTQ: Downloading android player API JSON
-WARNING: [youtube] aahViYznVTQ: nsig extraction failed: You may experience throttling for some formats
-         n = OJhDyLbom8itDdMTwK3 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] aahViYznVTQ: nsig extraction failed: You may experience throttling for some formats
-         n = d1VBj_iNZgRcOJsRV_q ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] aahViYznVTQ: Downloading m3u8 information
-[info] aahViYznVTQ: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/when the rains begin to fly.opus
-[download]   0.0% of    3.86MiB at  123.90KiB/s ETA 00:31[download]   0.1% of    3.86MiB at  349.95KiB/s ETA 00:11[download]   0.2% of    3.86MiB at  775.49KiB/s ETA 00:05[download]   0.4% of    3.86MiB at    1.54MiB/s ETA 00:02[download]   0.8% of    3.86MiB at    2.83MiB/s ETA 00:01[download]   1.6% of    3.86MiB at    3.15MiB/s ETA 00:01[download]   3.2% of    3.86MiB at    4.44MiB/s ETA 00:00[download]   6.4% of    3.86MiB at    6.66MiB/s ETA 00:00[download]  12.9% of    3.86MiB at   10.63MiB/s ETA 00:00[download]  25.9% of    3.86MiB at   17.44MiB/s ETA 00:00[download]  51.7% of    3.86MiB at   29.46MiB/s ETA 00:00[download] 100.0% of    3.86MiB at   45.03MiB/s ETA 00:00[download] 100% of    3.86MiB in 00:00:00 at 13.33MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/when the rains begin to fly.opus"
-127.0.0.1 - - [30/Nov/2024 21:40:08] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:40:14] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=l5aZJBLAu1E
-Download is completed successfully
-[youtube] l5aZJBLAu1E: Downloading webpage
-[youtube] l5aZJBLAu1E: Downloading ios player API JSON
-[youtube] l5aZJBLAu1E: Downloading android player API JSON
-[youtube] l5aZJBLAu1E: Downloading player b46bb280
-WARNING: [youtube] l5aZJBLAu1E: nsig extraction failed: You may experience throttling for some formats
-         n = CtS6mdTxD1VrwcZeYww ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] l5aZJBLAu1E: nsig extraction failed: You may experience throttling for some formats
-         n = K1Mb2fLIppGZCu5khFb ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] l5aZJBLAu1E: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=l5aZJBLAu1E
-[youtube] l5aZJBLAu1E: Downloading webpage
-[youtube] l5aZJBLAu1E: Downloading ios player API JSON
-[youtube] l5aZJBLAu1E: Downloading android player API JSON
-WARNING: [youtube] l5aZJBLAu1E: nsig extraction failed: You may experience throttling for some formats
-         n = T1AMhtbz0IS6M4ZNv7Y ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] l5aZJBLAu1E: nsig extraction failed: You may experience throttling for some formats
-         n = o1hwnm_EzVhC-K-3XbH ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] l5aZJBLAu1E: Downloading m3u8 information
-[info] l5aZJBLAu1E: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/it's raining men.opus
-[download]   0.0% of    4.54MiB at  245.93KiB/s ETA 00:18[download]   0.1% of    4.54MiB at  655.50KiB/s ETA 00:07[download]   0.2% of    4.54MiB at    1.36MiB/s ETA 00:03[download]   0.3% of    4.54MiB at    2.66MiB/s ETA 00:01[download]   0.7% of    4.54MiB at    2.99MiB/s ETA 00:01[download]   1.4% of    4.54MiB at    2.35MiB/s ETA 00:01[download]   2.7% of    4.54MiB at    2.82MiB/s ETA 00:01[download]   5.5% of    4.54MiB at    4.00MiB/s ETA 00:01[download]  11.0% of    4.54MiB at    6.15MiB/s ETA 00:00[download]  22.0% of    4.54MiB at    9.95MiB/s ETA 00:00[download]  44.0% of    4.54MiB at   16.61MiB/s ETA 00:00[download]  88.1% of    4.54MiB at   28.09MiB/s ETA 00:00[download] 100.0% of    4.54MiB at   30.68MiB/s ETA 00:00[download] 100% of    4.54MiB in 00:00:00 at 10.15MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/it's raining men.opus"
-127.0.0.1 - - [30/Nov/2024 21:44:39] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:44:44] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=s9oLhQUWMBE
-Download is completed successfully
-[youtube] s9oLhQUWMBE: Downloading webpage
-[youtube] s9oLhQUWMBE: Downloading ios player API JSON
-[youtube] s9oLhQUWMBE: Downloading android player API JSON
-[youtube] s9oLhQUWMBE: Downloading player b46bb280
-WARNING: [youtube] s9oLhQUWMBE: nsig extraction failed: You may experience throttling for some formats
-         n = aN_vV8v0gw6Y5SjK72d ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] s9oLhQUWMBE: nsig extraction failed: You may experience throttling for some formats
-         n = z1o9Th20DEjF4IT1SCg ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] s9oLhQUWMBE: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=s9oLhQUWMBE
-[youtube] s9oLhQUWMBE: Downloading webpage
-[youtube] s9oLhQUWMBE: Downloading ios player API JSON
-[youtube] s9oLhQUWMBE: Downloading android player API JSON
-WARNING: [youtube] s9oLhQUWMBE: nsig extraction failed: You may experience throttling for some formats
-         n = 019UTlEVdjezyF3H-5N ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] s9oLhQUWMBE: nsig extraction failed: You may experience throttling for some formats
-         n = rt39kNZ-Me93JzhkbcK ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] s9oLhQUWMBE: Downloading m3u8 information
-[info] s9oLhQUWMBE: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:www.youtube.comwatch?v=s9oLhQUWMBE.opus
-[download]   0.1% of    1.41MiB at  354.91KiB/s ETA 00:04[download]   0.2% of    1.41MiB at  893.74KiB/s ETA 00:01[download]   0.5% of    1.41MiB at    1.78MiB/s ETA 00:00[download]   1.0% of    1.41MiB at    3.40MiB/s ETA 00:00[download]   2.1% of    1.41MiB at    3.02MiB/s ETA 00:00[download]   4.4% of    1.41MiB at    3.55MiB/s ETA 00:00[download]   8.8% of    1.41MiB at    4.77MiB/s ETA 00:00[download]  17.6% of    1.41MiB at    7.22MiB/s ETA 00:00[download]  35.3% of    1.41MiB at   11.49MiB/s ETA 00:00[download]  70.7% of    1.41MiB at   18.40MiB/s ETA 00:00[download] 100.0% of    1.41MiB at   22.71MiB/s ETA 00:00[download] 100% of    1.41MiB in 00:00:00 at 4.82MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:www.youtube.comwatch?v=s9oLhQUWMBE.opus"
-127.0.0.1 - - [30/Nov/2024 21:51:43] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:51:48] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=1hx8H54VgTk
-Download is completed successfully
-[youtube] 1hx8H54VgTk: Downloading webpage
-[youtube] 1hx8H54VgTk: Downloading ios player API JSON
-[youtube] 1hx8H54VgTk: Downloading android player API JSON
-[youtube] 1hx8H54VgTk: Downloading player b46bb280
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = TNC3Kx6yAEGWXvsRo1f ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = iJWnxENfhXIq_KHHH6Q ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 1hx8H54VgTk: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=1hx8H54VgTk
-[youtube] 1hx8H54VgTk: Downloading webpage
-[youtube] 1hx8H54VgTk: Downloading ios player API JSON
-[youtube] 1hx8H54VgTk: Downloading android player API JSON
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = Gtj60mFFlNyNfX53lkD ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = lJi2TqcwWCPR2ydMIzR ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 1hx8H54VgTk: Downloading m3u8 information
-[info] 1hx8H54VgTk: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/team skull grunt thelme.opus
-[download]   0.0% of    4.63MiB at  331.67KiB/s ETA 00:14[download]   0.1% of    4.63MiB at  845.00KiB/s ETA 00:05[download]   0.1% of    4.63MiB at    1.71MiB/s ETA 00:02[download]   0.3% of    4.63MiB at    3.15MiB/s ETA 00:01[download]   0.7% of    4.63MiB at    2.92MiB/s ETA 00:01[download]   1.3% of    4.63MiB at    3.49MiB/s ETA 00:01[download]   2.7% of    4.63MiB at    4.68MiB/s ETA 00:00[download]   5.4% of    4.63MiB at    6.99MiB/s ETA 00:00[download]  10.8% of    4.63MiB at   10.90MiB/s ETA 00:00[download]  21.6% of    4.63MiB at   18.04MiB/s ETA 00:00[download]  43.1% of    4.63MiB at   30.01MiB/s ETA 00:00[download]  86.3% of    4.63MiB at   32.42MiB/s ETA 00:00[download] 100.0% of    4.63MiB at   35.55MiB/s ETA 00:00[download] 100% of    4.63MiB in 00:00:00 at 12.36MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/team skull grunt thelme.opus"
-127.0.0.1 - - [30/Nov/2024 21:54:10] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:54:15] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=1hx8H54VgTk
-Download is completed successfully
-[youtube] 1hx8H54VgTk: Downloading webpage
-[youtube] 1hx8H54VgTk: Downloading ios player API JSON
-[youtube] 1hx8H54VgTk: Downloading android player API JSON
-[youtube] 1hx8H54VgTk: Downloading player b46bb280
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = pN95l8ciIm-tL9-Ugq7 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = U1mZsI_6sV-vCQSD0hz ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 1hx8H54VgTk: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=1hx8H54VgTk
-[youtube] 1hx8H54VgTk: Downloading webpage
-[youtube] 1hx8H54VgTk: Downloading ios player API JSON
-[youtube] 1hx8H54VgTk: Downloading android player API JSON
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = mNCGTSX_z9ZY6J-U07I ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 1hx8H54VgTk: nsig extraction failed: You may experience throttling for some formats
-         n = 3teQgwUNjoY4o2-X02i ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 1hx8H54VgTk: Downloading m3u8 information
-[info] 1hx8H54VgTk: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/team skull grunt theme.opus
-[download]   0.0% of    4.63MiB at  128.63KiB/s ETA 00:36[download]   0.1% of    4.63MiB at  362.69KiB/s ETA 00:13[download]   0.1% of    4.63MiB at  802.19KiB/s ETA 00:05[download]   0.3% of    4.63MiB at    1.59MiB/s ETA 00:02[download]   0.7% of    4.63MiB at    2.84MiB/s ETA 00:01[download]   1.3% of    4.63MiB at    3.28MiB/s ETA 00:01[download]   2.7% of    4.63MiB at    4.58MiB/s ETA 00:00[download]   5.4% of    4.63MiB at    7.02MiB/s ETA 00:00[download]  10.8% of    4.63MiB at   11.21MiB/s ETA 00:00[download]  21.6% of    4.63MiB at   18.50MiB/s ETA 00:00[download]  43.1% of    4.63MiB at   30.80MiB/s ETA 00:00[download]  86.3% of    4.63MiB at   36.04MiB/s ETA 00:00[download] 100.0% of    4.63MiB at   32.84MiB/s ETA 00:00[download] 100% of    4.63MiB in 00:00:00 at 11.18MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/team skull grunt theme.opus"
-127.0.0.1 - - [30/Nov/2024 21:54:51] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:54:56] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=OwzjXOPbz9Q
-Download is completed successfully
-[youtube] OwzjXOPbz9Q: Downloading webpage
-[youtube] OwzjXOPbz9Q: Downloading ios player API JSON
-[youtube] OwzjXOPbz9Q: Downloading android player API JSON
-[youtube] OwzjXOPbz9Q: Downloading player b46bb280
-WARNING: [youtube] OwzjXOPbz9Q: nsig extraction failed: You may experience throttling for some formats
-         n = rJsssmZ703y-ywgToU9 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] OwzjXOPbz9Q: nsig extraction failed: You may experience throttling for some formats
-         n = HtFHhvQKsJtNdx1jAzr ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] OwzjXOPbz9Q: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=OwzjXOPbz9Q
-[youtube] OwzjXOPbz9Q: Downloading webpage
-[youtube] OwzjXOPbz9Q: Downloading ios player API JSON
-[youtube] OwzjXOPbz9Q: Downloading android player API JSON
-WARNING: [youtube] OwzjXOPbz9Q: nsig extraction failed: You may experience throttling for some formats
-         n = DNPn8CT-mTVq0zxz2LY ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] OwzjXOPbz9Q: nsig extraction failed: You may experience throttling for some formats
-         n = CJI_yGsMHwcRqWLyfW_ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] OwzjXOPbz9Q: Downloading m3u8 information
-[info] OwzjXOPbz9Q: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/guzma battle theme.opus
-[download]   0.0% of    2.79MiB at  301.19KiB/s ETA 00:09[download]   0.1% of    2.79MiB at  784.96KiB/s ETA 00:03[download]   0.2% of    2.79MiB at    1.60MiB/s ETA 00:01[download]   0.5% of    2.79MiB at    3.07MiB/s ETA 00:00[download]   1.1% of    2.79MiB at    2.98MiB/s ETA 00:00[download]   2.2% of    2.79MiB at    3.37MiB/s ETA 00:00[download]   4.5% of    2.79MiB at    4.64MiB/s ETA 00:00[download]   8.9% of    2.79MiB at    6.87MiB/s ETA 00:00[download]  17.9% of    2.79MiB at   10.91MiB/s ETA 00:00[download]  35.9% of    2.79MiB at   18.15MiB/s ETA 00:00[download]  71.7% of    2.79MiB at   30.41MiB/s ETA 00:00[download] 100.0% of    2.79MiB at   30.99MiB/s ETA 00:00[download] 100% of    2.79MiB in 00:00:00 at 8.25MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/guzma battle theme.opus"
-127.0.0.1 - - [30/Nov/2024 21:55:52] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 21:55:57] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://youtu.be/L5zE7EthV1o
-Download is completed successfully
-[youtube] L5zE7EthV1o: Downloading webpage
-[youtube] L5zE7EthV1o: Downloading ios player API JSON
-[youtube] L5zE7EthV1o: Downloading android player API JSON
-[youtube] L5zE7EthV1o: Downloading player b46bb280
-WARNING: [youtube] L5zE7EthV1o: nsig extraction failed: You may experience throttling for some formats
-         n = qJIMtEh30lwhE_1dd8t ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] L5zE7EthV1o: nsig extraction failed: You may experience throttling for some formats
-         n = I1U7hXKh2YscYXf5LIc ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] L5zE7EthV1o: Downloading m3u8 information
-[youtube] Extracting URL: https://youtu.be/L5zE7EthV1o
-[youtube] L5zE7EthV1o: Downloading webpage
-[youtube] L5zE7EthV1o: Downloading ios player API JSON
-[youtube] L5zE7EthV1o: Downloading android player API JSON
-WARNING: [youtube] L5zE7EthV1o: nsig extraction failed: You may experience throttling for some formats
-         n = 2tZfidUjTfhkUEM98Hq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] L5zE7EthV1o: nsig extraction failed: You may experience throttling for some formats
-         n = 1N_cOWzSAatAlQgKqmA ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] L5zE7EthV1o: Downloading m3u8 information
-[info] L5zE7EthV1o: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:youtu.beL5zE7EthV1o.opus
-[download]   0.1% of    1.79MiB at  198.22KiB/s ETA 00:09[download]   0.2% of    1.79MiB at  539.90KiB/s ETA 00:03[download]   0.4% of    1.79MiB at    1.14MiB/s ETA 00:01[download]   0.8% of    1.79MiB at    2.21MiB/s ETA 00:00[download]   1.7% of    1.79MiB at    2.61MiB/s ETA 00:00[download]   3.4% of    1.79MiB at    3.07MiB/s ETA 00:00[download]   6.9% of    1.79MiB at    4.42MiB/s ETA 00:00[download]  13.9% of    1.79MiB at    6.82MiB/s ETA 00:00[download]  27.8% of    1.79MiB at   11.00MiB/s ETA 00:00[download]  55.7% of    1.79MiB at   18.24MiB/s ETA 00:00[download] 100.0% of    1.79MiB at   28.35MiB/s ETA 00:00[download] 100% of    1.79MiB in 00:00:00 at 5.86MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:youtu.beL5zE7EthV1o.opus"
-127.0.0.1 - - [30/Nov/2024 22:06:44] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 22:06:50] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://youtu.be/kna5gi7czQo
-Download is completed successfully
-[youtube] kna5gi7czQo: Downloading webpage
-[youtube] kna5gi7czQo: Downloading ios player API JSON
-[youtube] kna5gi7czQo: Downloading android player API JSON
-[youtube] kna5gi7czQo: Downloading player b46bb280
-WARNING: [youtube] kna5gi7czQo: nsig extraction failed: You may experience throttling for some formats
-         n = CtoQjRd7K0sxPd_zGve ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] kna5gi7czQo: nsig extraction failed: You may experience throttling for some formats
-         n = q1d5aFgrC59vw2fzbDW ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] kna5gi7czQo: Downloading m3u8 information
-[youtube] Extracting URL: https://youtu.be/kna5gi7czQo
-[youtube] kna5gi7czQo: Downloading webpage
-[youtube] kna5gi7czQo: Downloading ios player API JSON
-[youtube] kna5gi7czQo: Downloading android player API JSON
-WARNING: [youtube] kna5gi7czQo: nsig extraction failed: You may experience throttling for some formats
-         n = 2tMEVCRfw0c8gMFgi2j ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] kna5gi7czQo: nsig extraction failed: You may experience throttling for some formats
-         n = 5NxvGO62_1UaodT-RW9 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] kna5gi7czQo: Downloading m3u8 information
-[info] kna5gi7czQo: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/https:youtu.bekna5gi7czQo.opus
-[download]   0.0% of    6.50MiB at  194.85KiB/s ETA 00:34[download]   0.0% of    6.50MiB at  518.14KiB/s ETA 00:12[download]   0.1% of    6.50MiB at    1.09MiB/s ETA 00:05[download]   0.2% of    6.50MiB at    2.17MiB/s ETA 00:02[download]   0.5% of    6.50MiB at    1.34MiB/s ETA 00:04[download]   0.9% of    6.50MiB at    1.64MiB/s ETA 00:03[download]   1.9% of    6.50MiB at    2.29MiB/s ETA 00:02[download]   3.8% of    6.50MiB at    3.46MiB/s ETA 00:01[download]   7.7% of    6.50MiB at    5.59MiB/s ETA 00:01[download]  15.4% of    6.50MiB at    9.36MiB/s ETA 00:00[download]  30.8% of    6.50MiB at   15.96MiB/s ETA 00:00[download]  61.5% of    6.50MiB at   27.19MiB/s ETA 00:00[download] 100.0% of    6.50MiB at   33.38MiB/s ETA 00:00[download] 100% of    6.50MiB in 00:00:00 at 9.65MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/https:youtu.bekna5gi7czQo.opus"
-127.0.0.1 - - [30/Nov/2024 22:09:06] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 22:09:12] "POST /delete HTTP/1.1" 200 -
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
-Download is completed successfully
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
-[youtube] Extracting URL: https://www.youtube.com/watch?v=0hOOnqAmf3M
-[youtube] 0hOOnqAmf3M: Downloading webpage
-[youtube] 0hOOnqAmf3M: Downloading ios player API JSON
-[youtube] 0hOOnqAmf3M: Downloading android player API JSON
-[youtube] 0hOOnqAmf3M: Downloading player b46bb280
-WARNING: [youtube] 0hOOnqAmf3M: nsig extraction failed: You may experience throttling for some formats
-         n = KNJpBhJqOYLsnPrr3NJ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 0hOOnqAmf3M: nsig extraction failed: You may experience throttling for some formats
-         n = J1TUcu-VzFZw66zDALu ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 0hOOnqAmf3M: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=0hOOnqAmf3M
-[youtube] 0hOOnqAmf3M: Downloading webpage
-[youtube] 0hOOnqAmf3M: Downloading ios player API JSON
-[youtube] 0hOOnqAmf3M: Downloading android player API JSON
-WARNING: [youtube] 0hOOnqAmf3M: nsig extraction failed: You may experience throttling for some formats
-         n = sJ8neDpCfCeJkRIRtxY ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 0hOOnqAmf3M: nsig extraction failed: You may experience throttling for some formats
-         n = PtU9zCIrHLs-yBDUefN ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 0hOOnqAmf3M: Downloading m3u8 information
-[info] 0hOOnqAmf3M: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733001446460.opus
-[download]   0.0% of    4.94MiB at  284.88KiB/s ETA 00:17[download]   0.1% of    4.94MiB at  725.57KiB/s ETA 00:06[download]   0.1% of    4.94MiB at    1.47MiB/s ETA 00:03[download]   0.3% of    4.94MiB at    2.85MiB/s ETA 00:01[download]   0.6% of    4.94MiB at    1.68MiB/s ETA 00:02[download]   1.2% of    4.94MiB at    2.07MiB/s ETA 00:02[download]   2.5% of    4.94MiB at    2.73MiB/s ETA 00:01[download]   5.0% of    4.94MiB at    3.84MiB/s ETA 00:01[download]  10.1% of    4.94MiB at    5.97MiB/s ETA 00:00[download]  20.2% of    4.94MiB at    9.79MiB/s ETA 00:00[download]  40.5% of    4.94MiB at   16.47MiB/s ETA 00:00[download]  80.9% of    4.94MiB at   23.59MiB/s ETA 00:00[download] 100.0% of    4.94MiB at   25.82MiB/s ETA 00:00[download] 100% of    4.94MiB in 00:00:00 at 10.39MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733001446460.opus"
-127.0.0.1 - - [30/Nov/2024 22:17:29] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 22:22:51] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-Download is completed successfully
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-[youtube] Um-v3FYhGmM: Downloading player b46bb280
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = X1R1KSQCU_M2wRy7utd ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = 91AnKUOcgvtjbRqDfYa ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = L1pTfB7hEEZCe4tOm3r ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = 6NxrC4b1RHjjyEwLn_T ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[info] Um-v3FYhGmM: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733002231555.opus
-[download]   0.0% of    9.45MiB at  314.27KiB/s ETA 00:30[download]   0.0% of    9.45MiB at  736.06KiB/s ETA 00:13[download]   0.1% of    9.45MiB at    1.50MiB/s ETA 00:06[download]   0.2% of    9.45MiB at    2.87MiB/s ETA 00:03[download]   0.3% of    9.45MiB at    3.46MiB/s ETA 00:02[download]   0.7% of    9.45MiB at    3.65MiB/s ETA 00:02[download]   1.3% of    9.45MiB at    4.93MiB/s ETA 00:01[download]   2.6% of    9.45MiB at    7.35MiB/s ETA 00:01[download]   5.3% of    9.45MiB at   11.70MiB/s ETA 00:00[download]  10.6% of    9.45MiB at   19.04MiB/s ETA 00:00[download]  21.2% of    9.45MiB at   31.34MiB/s ETA 00:00[download]  42.3% of    9.45MiB at   44.60MiB/s ETA 00:00[download]  84.7% of    9.45MiB at   34.86MiB/s ETA 00:00[download] 100.0% of    9.45MiB at   38.81MiB/s ETA 00:00[download] 100% of    9.45MiB in 00:00:00 at 15.09MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733002231555.opus"
-127.0.0.1 - - [30/Nov/2024 22:30:35] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-Download is completed successfully
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-[youtube] Um-v3FYhGmM: Downloading player b46bb280
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = YtUoiPoyV7qTAL8vcXE ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = SNOY_uDgHXbvFcmWwaq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = 6JTmfhfYGvxkMgiLdep ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = S1qVwdVMB9oIvIq0rpq ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[info] Um-v3FYhGmM: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733002248224.opus
-[download]   0.0% of    9.45MiB at  131.98KiB/s ETA 01:13[download]   0.0% of    9.45MiB at  361.36KiB/s ETA 00:26[download]   0.1% of    9.45MiB at  791.98KiB/s ETA 00:12[download]   0.2% of    9.45MiB at    1.56MiB/s ETA 00:06[download]   0.3% of    9.45MiB at    2.98MiB/s ETA 00:03[download]   0.7% of    9.45MiB at    3.26MiB/s ETA 00:02[download]   1.3% of    9.45MiB at    4.53MiB/s ETA 00:02[download]   2.6% of    9.45MiB at    6.95MiB/s ETA 00:01[download]   5.3% of    9.45MiB at   11.15MiB/s ETA 00:00[download]  10.6% of    9.45MiB at   18.46MiB/s ETA 00:00[download]  21.2% of    9.45MiB at   30.92MiB/s ETA 00:00[download]  42.3% of    9.45MiB at   47.50MiB/s ETA 00:00[download]  84.7% of    9.45MiB at   58.21MiB/s ETA 00:00[download] 100.0% of    9.45MiB at   62.95MiB/s ETA 00:00[download] 100% of    9.45MiB in 00:00:00 at 25.44MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733002248224.opus"
-127.0.0.1 - - [30/Nov/2024 22:30:51] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-Download is completed successfully
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-[youtube] Um-v3FYhGmM: Downloading player b46bb280
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-[youtube] Um-v3FYhGmM: Downloading player b46bb280
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = 9NEp2fwl_z1MnZg0XWo ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = UNcHbI3OG2mJ7c-fb2c ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = ZNq785ILv7Ml79B0Wol ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = mtt3VpqGiCgho-ae-Dv ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Extracting URL: https://www.youtube.com/watch?v=Um-v3FYhGmM
-[youtube] Um-v3FYhGmM: Downloading webpage
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading ios player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-[youtube] Um-v3FYhGmM: Downloading android player API JSON
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = EJzUUBJ6c1KLljz6BgZ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = nNx1ayRF1RKDPL1Fn1L ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = ZtENkaSvRqCAFI0o6ZH ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] Um-v3FYhGmM: nsig extraction failed: You may experience throttling for some formats
-         n = y1K8bXlUS948OT8CnTZ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] Um-v3FYhGmM: Downloading m3u8 information
-[info] Um-v3FYhGmM: Downloading 1 format(s): 140
-[info] Um-v3FYhGmM: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733002297071.opus
-[download]   0.0% of    9.45MiB at  131.52KiB/s ETA 01:13[download]   0.0% of    9.45MiB at  363.04KiB/s ETA 00:26[download]   0.1% of    9.45MiB at  800.81KiB/s ETA 00:12[download]   0.2% of    9.45MiB at    1.58MiB/s ETA 00:05[download]   0.3% of    9.45MiB at    2.87MiB/s ETA 00:03[download]   0.7% of    9.45MiB at    3.46MiB/s ETA 00:02[download]   1.3% of    9.45MiB at    4.84MiB/s ETA 00:01[download]   2.6% of    9.45MiB at    7.14MiB/s ETA 00:01[download]   5.3% of    9.45MiB at   11.41MiB/s ETA 00:00[download] Destination: ./save/943192342188408842/1733002296591.opus
-[download]   0.0% of    9.45MiB at  149.44KiB/s ETA 01:04[download]   0.0% of    9.45MiB at  414.47KiB/s ETA 00:23[download]   0.1% of    9.45MiB at  904.14KiB/s ETA 00:10[download]   0.2% of    9.45MiB at    1.76MiB/s ETA 00:05[download]   0.3% of    9.45MiB at    3.16MiB/s ETA 00:02[download]  10.6% of    9.45MiB at   18.16MiB/s ETA 00:00[download]  21.2% of    9.45MiB at   31.15MiB/s ETA 00:00[download]   0.7% of    9.45MiB at    3.10MiB/s ETA 00:03[download]   1.3% of    9.45MiB at    3.69MiB/s ETA 00:02[download]  42.3% of    9.45MiB at   47.60MiB/s ETA 00:00[download]   2.6% of    9.45MiB at    4.43MiB/s ETA 00:02[download]   5.3% of    9.45MiB at    5.85MiB/s ETA 00:01[download]  84.7% of    9.45MiB at   56.07MiB/s ETA 00:00[download]  10.6% of    9.45MiB at    9.34MiB/s ETA 00:00[download] 100.0% of    9.45MiB at   60.19MiB/s ETA 00:00[download]  21.2% of    9.45MiB at   16.39MiB/s ETA 00:00[download]  42.3% of    9.45MiB at   28.31MiB/s ETA 00:00[download] 100% of    9.45MiB in 00:00:00 at 25.04MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733002297071.opus"
-[download]  84.7% of    9.45MiB at   39.77MiB/s ETA 00:00[download] 100.0% of    9.45MiB at   43.92MiB/s ETA 00:00[download] 100% of    9.45MiB in 00:00:00 at 21.69MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733002296591.opus"
-127.0.0.1 - - [30/Nov/2024 22:31:40] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 22:31:40] "POST /download_audio HTTP/1.1" 200 -
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
-Download is completed successfully
-Download is completed successfully
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
- * Detected change in '/home/gmarrec/srv/discord/DiscordBot-Moderation-master/youtube_dl/app.py', reloading
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 565-539-862
-127.0.0.1 - - [30/Nov/2024 22:50:24] "[33mPOST /delete HTTP/1.1[0m" 404 -
-127.0.0.1 - - [30/Nov/2024 22:55:29] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-[youtube] 49brMmgtjyU: Downloading player b46bb280
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = FtthApgzEyQ6eF-H7KO ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = 8Nfsc1JBfWfnnoODI1l ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-[youtube] 49brMmgtjyU: Downloading player b46bb280
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = kt_zWzh2eurH5DMUNZQ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = FJQfGd6jzuWNzQr0HeC ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = X1sQW1cvfF14CCYNoAh ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = CJQogro1h5pLO7CrPyE ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-[info] 49brMmgtjyU: Downloading 1 format(s): 140
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = PNXmBBzCVAChS4igR-6 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = HJEwgFZyswy94oc3zMF ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[info] 49brMmgtjyU: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733003769433.opus
-[download]   0.0% of    4.88MiB at  129.71KiB/s ETA 00:38[download]   0.1% of    4.88MiB at  352.81KiB/s ETA 00:14[download]   0.1% of    4.88MiB at  767.67KiB/s ETA 00:06[download]   0.3% of    4.88MiB at    1.51MiB/s ETA 00:03[download]   0.6% of    4.88MiB at    2.86MiB/s ETA 00:01[download]   1.3% of    4.88MiB at    3.21MiB/s ETA 00:01[download]   2.5% of    4.88MiB at    4.44MiB/s ETA 00:01[download]   5.1% of    4.88MiB at    6.91MiB/s ETA 00:00[download]  10.2% of    4.88MiB at   10.91MiB/s ETA 00:00[download]  20.5% of    4.88MiB at   18.19MiB/s ETA 00:00[download]  41.0% of    4.88MiB at   30.44MiB/s ETA 00:00[download]  82.0% of    4.88MiB at   39.83MiB/s ETA 00:00[download] 100.0% of    4.88MiB at   35.40MiB/s ETA 00:00[download] 100% of    4.88MiB in 00:00:00 at 11.68MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733003769433.opus"
-[download] Destination: ./save/943192342188408842/1733003769870.opus
-[download]   0.0% of    4.88MiB at   76.47KiB/s ETA 01:05[download]   0.1% of    4.88MiB at  220.36KiB/s ETA 00:22[download]   0.1% of    4.88MiB at  494.62KiB/s ETA 00:10[download]   0.3% of    4.88MiB at 1009.91KiB/s ETA 00:04[download]   0.6% of    4.88MiB at    1.95MiB/s ETA 00:02[download]   1.3% of    4.88MiB at    2.55MiB/s ETA 00:01[download]   2.5% of    4.88MiB at    2.65MiB/s ETA 00:01[download]   5.1% of    4.88MiB at    3.66MiB/s ETA 00:01[download]  10.2% of    4.88MiB at    5.67MiB/s ETA 00:00[download]  20.5% of    4.88MiB at    9.44MiB/s ETA 00:00[download]  41.0% of    4.88MiB at   16.09MiB/s ETA 00:00[download]  82.0% of    4.88MiB at   27.57MiB/s ETA 00:00[download] 100.0% of    4.88MiB at   24.67MiB/s ETA 00:00[download] 100% of    4.88MiB in 00:00:00 at 8.50MiB/s   
-127.0.0.1 - - [30/Nov/2024 22:56:12] "POST /download_audio HTTP/1.1" 200 -
-[FixupM4a] Correcting container of "./save/943192342188408842/1733003769870.opus"
-Download is completed successfully
-127.0.0.1 - - [30/Nov/2024 22:56:13] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 22:57:59] "[33mPOST /delete HTTP/1.1[0m" 404 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-Download is completed successfully
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-[youtube] 49brMmgtjyU: Downloading player b46bb280
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = 1Nwvxd6PWu4DNIyR4p1 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = utNoZbeT0-E5wMgcyRV ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=49brMmgtjyU
-[youtube] 49brMmgtjyU: Downloading webpage
-[youtube] 49brMmgtjyU: Downloading ios player API JSON
-[youtube] 49brMmgtjyU: Downloading android player API JSON
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = utatKMqOTiVCPDWtEfJ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 49brMmgtjyU: nsig extraction failed: You may experience throttling for some formats
-         n = Et0dmNcS24cvNPkPF5d ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 49brMmgtjyU: Downloading m3u8 information
-[info] 49brMmgtjyU: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733003914426.opus
-[download]   0.0% of    4.88MiB at  131.46KiB/s ETA 00:38[download]   0.1% of    4.88MiB at  360.19KiB/s ETA 00:13[download]   0.1% of    4.88MiB at  794.96KiB/s ETA 00:06[download]   0.3% of    4.88MiB at    1.57MiB/s ETA 00:03[download]   0.6% of    4.88MiB at    2.91MiB/s ETA 00:01[download]   1.3% of    4.88MiB at    3.22MiB/s ETA 00:01[download]   2.5% of    4.88MiB at    4.57MiB/s ETA 00:01[download]   5.1% of    4.88MiB at    6.93MiB/s ETA 00:00[download]  10.2% of    4.88MiB at   11.12MiB/s ETA 00:00[download]  20.5% of    4.88MiB at   18.19MiB/s ETA 00:00[download]  41.0% of    4.88MiB at   30.39MiB/s ETA 00:00[download]  82.0% of    4.88MiB at   44.03MiB/s ETA 00:00[download] 100.0% of    4.88MiB at   46.95MiB/s ETA 00:00[download] 100% of    4.88MiB in 00:00:00 at 12.93MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733003914426.opus"
-127.0.0.1 - - [30/Nov/2024 22:58:37] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:03:54] "POST /delete HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:07:25] "POST /delete HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:14:12] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=c2Gu4W1A9nQ
-Download is completed successfully
-[youtube] c2Gu4W1A9nQ: Downloading webpage
-[youtube] c2Gu4W1A9nQ: Downloading ios player API JSON
-[youtube] c2Gu4W1A9nQ: Downloading android player API JSON
-[youtube] c2Gu4W1A9nQ: Downloading player b46bb280
-WARNING: [youtube] c2Gu4W1A9nQ: nsig extraction failed: You may experience throttling for some formats
-         n = zJJfwbqgydpRXNsmNgV ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] c2Gu4W1A9nQ: nsig extraction failed: You may experience throttling for some formats
-         n = 4NJcxHwLD3_6fwQFG3p ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] c2Gu4W1A9nQ: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=c2Gu4W1A9nQ
-[youtube] c2Gu4W1A9nQ: Downloading webpage
-[youtube] c2Gu4W1A9nQ: Downloading ios player API JSON
-[youtube] c2Gu4W1A9nQ: Downloading android player API JSON
-WARNING: [youtube] c2Gu4W1A9nQ: nsig extraction failed: You may experience throttling for some formats
-         n = mJC3ZENxAFqGFgFuxgE ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] c2Gu4W1A9nQ: nsig extraction failed: You may experience throttling for some formats
-         n = gJIkIyaWRCp7HjLU9ga ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] c2Gu4W1A9nQ: Downloading m3u8 information
-[info] c2Gu4W1A9nQ: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733005122175.opus
-[download]   0.0% of    3.78MiB at  122.10KiB/s ETA 00:31[download]   0.1% of    3.78MiB at  343.14KiB/s ETA 00:11[download]   0.2% of    3.78MiB at  750.02KiB/s ETA 00:05[download]   0.4% of    3.78MiB at    1.49MiB/s ETA 00:02[download]   0.8% of    3.78MiB at    2.72MiB/s ETA 00:01[download]   1.6% of    3.78MiB at    3.13MiB/s ETA 00:01[download]   3.3% of    3.78MiB at    4.42MiB/s ETA 00:00[download]   6.6% of    3.78MiB at    6.81MiB/s ETA 00:00[download]  13.2% of    3.78MiB at   10.98MiB/s ETA 00:00[download]  26.4% of    3.78MiB at   18.16MiB/s ETA 00:00[download]  52.9% of    3.78MiB at   30.25MiB/s ETA 00:00[download] 100.0% of    3.78MiB at   42.80MiB/s ETA 00:00[download] 100% of    3.78MiB in 00:00:00 at 9.88MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/1733005122175.opus"
-127.0.0.1 - - [30/Nov/2024 23:18:44] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:22:12] "POST /delete HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:26:17] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=remPqI8QRzU
-Download is completed successfully
-[youtube] remPqI8QRzU: Downloading webpage
-[youtube] remPqI8QRzU: Downloading ios player API JSON
-[youtube] remPqI8QRzU: Downloading android player API JSON
-[youtube] remPqI8QRzU: Downloading player b46bb280
-WARNING: [youtube] remPqI8QRzU: nsig extraction failed: You may experience throttling for some formats
-         n = V16LKLW-i46cLtF5-cy ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] remPqI8QRzU: nsig extraction failed: You may experience throttling for some formats
-         n = HJlSXFElfmy-RQQazpi ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] remPqI8QRzU: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=remPqI8QRzU
-[youtube] remPqI8QRzU: Downloading webpage
-[youtube] remPqI8QRzU: Downloading ios player API JSON
-[youtube] remPqI8QRzU: Downloading android player API JSON
-WARNING: [youtube] remPqI8QRzU: nsig extraction failed: You may experience throttling for some formats
-         n = ONZaxKAS5qRHYW-0HeH ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] remPqI8QRzU: nsig extraction failed: You may experience throttling for some formats
-         n = MN-uXmdS6ZoUW9TyWER ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] remPqI8QRzU: Downloading m3u8 information
-[info] remPqI8QRzU: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733005618150.opus
-[download]   0.0% of    3.55MiB at  126.71KiB/s ETA 00:28[download]   0.1% of    3.55MiB at  355.76KiB/s ETA 00:10[download]   0.2% of    3.55MiB at  768.63KiB/s ETA 00:04[download]   0.4% of    3.55MiB at    1.52MiB/s ETA 00:02[download]   0.9% of    3.55MiB at    2.88MiB/s ETA 00:01[download]   1.7% of    3.55MiB at    3.27MiB/s ETA 00:01[download]   3.5% of    3.55MiB at    4.54MiB/s ETA 00:00[download]   7.0% of    3.55MiB at    6.88MiB/s ETA 00:00[download]  14.1% of    3.55MiB at   11.09MiB/s ETA 00:00[download]  28.1% of    3.55MiB at   18.33MiB/s ETA 00:00[download]  56.3% of    3.55MiB at   30.47MiB/s ETA 00:00[download] 100.0% of    3.55MiB at   29.00MiB/s ETA 00:00[download] 100% of    3.55MiB in 00:00:00 at 9.15MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/1733005618150.opus"
-127.0.0.1 - - [30/Nov/2024 23:27:01] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:30:52] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=s5d3SEWY-uc
-Download is completed successfully
-[youtube] s5d3SEWY-uc: Downloading webpage
-[youtube] s5d3SEWY-uc: Downloading ios player API JSON
-[youtube] s5d3SEWY-uc: Downloading android player API JSON
-[youtube] s5d3SEWY-uc: Downloading player b46bb280
-WARNING: [youtube] s5d3SEWY-uc: nsig extraction failed: You may experience throttling for some formats
-         n = XtF49qhJyl1Vhpkam5k ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] s5d3SEWY-uc: nsig extraction failed: You may experience throttling for some formats
-         n = Rt45THnhR_zapJWBh5l ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] s5d3SEWY-uc: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=s5d3SEWY-uc
-[youtube] s5d3SEWY-uc: Downloading webpage
-[youtube] s5d3SEWY-uc: Downloading ios player API JSON
-[youtube] s5d3SEWY-uc: Downloading android player API JSON
-WARNING: [youtube] s5d3SEWY-uc: nsig extraction failed: You may experience throttling for some formats
-         n = I1JfjEqp-MG0Lvopgjm ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] s5d3SEWY-uc: nsig extraction failed: You may experience throttling for some formats
-         n = vtgM_5AsWcRTxPSHvo4 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] s5d3SEWY-uc: Downloading m3u8 information
-[info] s5d3SEWY-uc: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733006212714.opus
-[download]   0.0% of    5.09MiB at  300.95KiB/s ETA 00:17[download]   0.1% of    5.09MiB at  778.50KiB/s ETA 00:06[download]   0.1% of    5.09MiB at    1.58MiB/s ETA 00:03[download]   0.3% of    5.09MiB at    2.97MiB/s ETA 00:01[download]   0.6% of    5.09MiB at    3.48MiB/s ETA 00:01[download]   1.2% of    5.09MiB at    2.13MiB/s ETA 00:02[download]   2.4% of    5.09MiB at    2.80MiB/s ETA 00:01[download]   4.9% of    5.09MiB at    3.90MiB/s ETA 00:01[download]   9.8% of    5.09MiB at    5.98MiB/s ETA 00:00[download]  19.6% of    5.09MiB at    9.73MiB/s ETA 00:00[download]  39.2% of    5.09MiB at   16.37MiB/s ETA 00:00[download]  78.5% of    5.09MiB at   27.73MiB/s ETA 00:00[download] 100.0% of    5.09MiB at   26.86MiB/s ETA 00:00[download] 100% of    5.09MiB in 00:00:00 at 9.35MiB/s   
-[FixupM4a] Correcting container of "./save/943192342188408842/1733006212714.opus"
-127.0.0.1 - - [30/Nov/2024 23:36:56] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:42:27] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=a5uQMwRMHcs
-Download is completed successfully
-[youtube] a5uQMwRMHcs: Downloading webpage
-[youtube] a5uQMwRMHcs: Downloading ios player API JSON
-[youtube] a5uQMwRMHcs: Downloading android player API JSON
-[youtube] a5uQMwRMHcs: Downloading player b46bb280
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = l1J7UkTT_khKpMoOboQ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = lJMuvxPZsc1xa3FTId_ ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] a5uQMwRMHcs: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=a5uQMwRMHcs
-[youtube] a5uQMwRMHcs: Downloading webpage
-[youtube] a5uQMwRMHcs: Downloading ios player API JSON
-[youtube] a5uQMwRMHcs: Downloading android player API JSON
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = h1yZ-fF2t_x9deeS24- ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] a5uQMwRMHcs: nsig extraction failed: You may experience throttling for some formats
-         n = wJAcKghCv-VjjHPM794 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] a5uQMwRMHcs: Downloading m3u8 information
-[info] a5uQMwRMHcs: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733007148269.opus
-[download]   0.0% of    5.25MiB at  125.22KiB/s ETA 00:42[download]   0.1% of    5.25MiB at  351.78KiB/s ETA 00:15[download]   0.1% of    5.25MiB at  776.07KiB/s ETA 00:06[download]   0.3% of    5.25MiB at    1.53MiB/s ETA 00:03[download]   0.6% of    5.25MiB at    2.79MiB/s ETA 00:01[download]   1.2% of    5.25MiB at    3.17MiB/s ETA 00:01[download]   2.4% of    5.25MiB at    4.44MiB/s ETA 00:01[download]   4.7% of    5.25MiB at    6.79MiB/s ETA 00:00[download]   9.5% of    5.25MiB at   10.82MiB/s ETA 00:00[download]  19.0% of    5.25MiB at   18.09MiB/s ETA 00:00[download]  38.1% of    5.25MiB at   30.28MiB/s ETA 00:00[download]  76.2% of    5.25MiB at   46.64MiB/s ETA 00:00[download] 100.0% of    5.25MiB at   54.14MiB/s ETA 00:00[download] 100% of    5.25MiB in 00:00:00 at 15.97MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733007148269.opus"
-127.0.0.1 - - [30/Nov/2024 23:52:31] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=MV_3Dpw-BRY
-Download is completed successfully
-[youtube] MV_3Dpw-BRY: Downloading webpage
-[youtube] MV_3Dpw-BRY: Downloading ios player API JSON
-[youtube] MV_3Dpw-BRY: Downloading android player API JSON
-[youtube] MV_3Dpw-BRY: Downloading player b46bb280
-WARNING: [youtube] MV_3Dpw-BRY: nsig extraction failed: You may experience throttling for some formats
-         n = _NItuG5zmpI6FGQcSrH ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] MV_3Dpw-BRY: nsig extraction failed: You may experience throttling for some formats
-         n = Rtr7pdICHUwKv8dS9M3 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] MV_3Dpw-BRY: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=MV_3Dpw-BRY
-[youtube] MV_3Dpw-BRY: Downloading webpage
-[youtube] MV_3Dpw-BRY: Downloading ios player API JSON
-[youtube] MV_3Dpw-BRY: Downloading android player API JSON
-WARNING: [youtube] MV_3Dpw-BRY: nsig extraction failed: You may experience throttling for some formats
-         n = KJyZMU-94vf8gG-xyDI ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] MV_3Dpw-BRY: nsig extraction failed: You may experience throttling for some formats
-         n = 2NZUQtSP0i-muC81Gla ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] MV_3Dpw-BRY: Downloading m3u8 information
-[info] MV_3Dpw-BRY: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733007298562.opus
-[download]   0.0% of    3.97MiB at  133.49KiB/s ETA 00:30[download]   0.1% of    3.97MiB at  374.17KiB/s ETA 00:10[download]   0.2% of    3.97MiB at  824.68KiB/s ETA 00:04[download]   0.4% of    3.97MiB at    1.63MiB/s ETA 00:02[download]   0.8% of    3.97MiB at    2.99MiB/s ETA 00:01[download]   1.6% of    3.97MiB at    3.29MiB/s ETA 00:01[download]   3.1% of    3.97MiB at    4.62MiB/s ETA 00:00[download]   6.3% of    3.97MiB at    7.13MiB/s ETA 00:00[download]  12.6% of    3.97MiB at   11.33MiB/s ETA 00:00[download]  25.2% of    3.97MiB at   18.43MiB/s ETA 00:00[download]  50.4% of    3.97MiB at   30.79MiB/s ETA 00:00[download] 100.0% of    3.97MiB at   46.96MiB/s ETA 00:00[download] 100% of    3.97MiB in 00:00:00 at 14.07MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733007298562.opus"
-127.0.0.1 - - [30/Nov/2024 23:55:02] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [30/Nov/2024 23:58:12] "POST /delete HTTP/1.1" 200 -
-127.0.0.1 - - [01/Dec/2024 00:02:29] "POST /delete HTTP/1.1" 200 -
-[youtube] Extracting URL: https://www.youtube.com/watch?v=ylf7_oamBCo
-Download is completed successfully
-[youtube] ylf7_oamBCo: Downloading webpage
-[youtube] ylf7_oamBCo: Downloading ios player API JSON
-[youtube] ylf7_oamBCo: Downloading android player API JSON
-[youtube] ylf7_oamBCo: Downloading player b46bb280
-WARNING: [youtube] ylf7_oamBCo: nsig extraction failed: You may experience throttling for some formats
-         n = 21Ihy8uCBsLglFA7p2o ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] ylf7_oamBCo: nsig extraction failed: You may experience throttling for some formats
-         n = ENmOacQJmfVa5Sv1RIG ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] ylf7_oamBCo: Downloading m3u8 information
-[youtube] Extracting URL: https://www.youtube.com/watch?v=ylf7_oamBCo
-[youtube] ylf7_oamBCo: Downloading webpage
-[youtube] ylf7_oamBCo: Downloading ios player API JSON
-[youtube] ylf7_oamBCo: Downloading android player API JSON
-WARNING: [youtube] ylf7_oamBCo: nsig extraction failed: You may experience throttling for some formats
-         n = CJhLswWohjP5Rd3Du-F ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] ylf7_oamBCo: nsig extraction failed: You may experience throttling for some formats
-         n = Oti8RPMVMph8gGyTaX3 ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] ylf7_oamBCo: Downloading m3u8 information
-[info] ylf7_oamBCo: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733008027094.opus
-[download]   0.0% of   12.79MiB at  133.56KiB/s ETA 01:38[download]   0.0% of   12.79MiB at  372.54KiB/s ETA 00:35[download]   0.1% of   12.79MiB at  821.95KiB/s ETA 00:15[download]   0.1% of   12.79MiB at    1.60MiB/s ETA 00:07[download]   0.2% of   12.79MiB at    2.99MiB/s ETA 00:04[download]   0.5% of   12.79MiB at    3.28MiB/s ETA 00:03[download]   1.0% of   12.79MiB at    4.55MiB/s ETA 00:02[download]   1.9% of   12.79MiB at    6.98MiB/s ETA 00:01[download]   3.9% of   12.79MiB at   11.18MiB/s ETA 00:01[download]   7.8% of   12.79MiB at   18.62MiB/s ETA 00:00[download]  15.6% of   12.79MiB at   31.00MiB/s ETA 00:00[download]  31.3% of   12.79MiB at   43.26MiB/s ETA 00:00[download]  62.6% of   12.79MiB at   50.53MiB/s ETA 00:00[download]  77.2% of   12.79MiB at   51.29MiB/s ETA 00:00[download]  77.2% of   12.79MiB at  Unknown B/s ETA Unknown[download]  77.2% of   12.79MiB at  Unknown B/s ETA Unknown[download]  77.2% of   12.79MiB at    5.89MiB/s ETA 00:00  [download]  77.3% of   12.79MiB at    8.64MiB/s ETA 00:00[download]  77.4% of   12.79MiB at   12.78MiB/s ETA 00:00[download]  77.7% of   12.79MiB at   19.07MiB/s ETA 00:00[download]  78.1% of   12.79MiB at   29.37MiB/s ETA 00:00[download]  79.1% of   12.79MiB at    5.58MiB/s ETA 00:00[download]  81.1% of   12.79MiB at   10.50MiB/s ETA 00:00[download]  85.0% of   12.79MiB at   18.98MiB/s ETA 00:00[download]  92.8% of   12.79MiB at   31.95MiB/s ETA 00:00[download] 100.0% of   12.79MiB at   39.65MiB/s ETA 00:00[download] 100% of   12.79MiB in 00:00:00 at 22.15MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733008027094.opus"
-127.0.0.1 - - [01/Dec/2024 00:07:10] "POST /download_audio HTTP/1.1" 200 -
-[youtube] Extracting URL: https://youtu.be/3S1NmtWDVYk
-Download is completed successfully
-[youtube] 3S1NmtWDVYk: Downloading webpage
-[youtube] 3S1NmtWDVYk: Downloading ios player API JSON
-[youtube] 3S1NmtWDVYk: Downloading android player API JSON
-[youtube] 3S1NmtWDVYk: Downloading player b46bb280
-WARNING: [youtube] 3S1NmtWDVYk: nsig extraction failed: You may experience throttling for some formats
-         n = lJF_-Wr5a5wRfZMbGfP ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 3S1NmtWDVYk: nsig extraction failed: You may experience throttling for some formats
-         n = dNYfO0qrMrhEdym9lpN ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 3S1NmtWDVYk: Downloading m3u8 information
-[youtube] Extracting URL: https://youtu.be/3S1NmtWDVYk
-[youtube] 3S1NmtWDVYk: Downloading webpage
-[youtube] 3S1NmtWDVYk: Downloading ios player API JSON
-[youtube] 3S1NmtWDVYk: Downloading android player API JSON
-WARNING: [youtube] 3S1NmtWDVYk: nsig extraction failed: You may experience throttling for some formats
-         n = StqBq0UhZVOMkBWETwk ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-WARNING: [youtube] 3S1NmtWDVYk: nsig extraction failed: You may experience throttling for some formats
-         n = kJr6M2_kmRvvQI8NInP ; player = https://www.youtube.com/s/player/b46bb280/player_ias.vflset/en_US/base.js
-[youtube] 3S1NmtWDVYk: Downloading m3u8 information
-[info] 3S1NmtWDVYk: Downloading 1 format(s): 140
-[download] Destination: ./save/943192342188408842/1733008180627.opus
-[download]   0.0% of    3.94MiB at  121.22KiB/s ETA 00:33[download]   0.1% of    3.94MiB at  342.24KiB/s ETA 00:11[download]   0.2% of    3.94MiB at  736.56KiB/s ETA 00:05[download]   0.4% of    3.94MiB at    1.46MiB/s ETA 00:02[download]   0.8% of    3.94MiB at    2.79MiB/s ETA 00:01[download]   1.6% of    3.94MiB at    3.32MiB/s ETA 00:01[download]   3.1% of    3.94MiB at    4.56MiB/s ETA 00:00[download]   6.3% of    3.94MiB at    6.98MiB/s ETA 00:00[download]  12.7% of    3.94MiB at   11.09MiB/s ETA 00:00[download]  25.3% of    3.94MiB at   18.36MiB/s ETA 00:00[download]  50.7% of    3.94MiB at   30.94MiB/s ETA 00:00[download] 100.0% of    3.94MiB at   47.11MiB/s ETA 00:00[download] 100% of    3.94MiB in 00:00:00 at 13.46MiB/s  
-[FixupM4a] Correcting container of "./save/943192342188408842/1733008180627.opus"
-127.0.0.1 - - [01/Dec/2024 00:09:42] "POST /download_audio HTTP/1.1" 200 -
-127.0.0.1 - - [01/Dec/2024 00:13:59] "POST /delete HTTP/1.1" 200 -
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=yxkQ-jaCm-E&list=RDN3kkNfH4yco&feature=youtu.be
+[youtube:tab] Downloading just the video yxkQ-jaCm-E because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=yxkQ-jaCm-E
+[youtube] yxkQ-jaCm-E: Downloading webpage
+[youtube] yxkQ-jaCm-E: Downloading tv client config
+[youtube] yxkQ-jaCm-E: Downloading player 9c6dfc4a
+[youtube] yxkQ-jaCm-E: Downloading tv player API JSON
+[youtube] yxkQ-jaCm-E: Downloading ios player API JSON
+[youtube] yxkQ-jaCm-E: Downloading m3u8 information
+[YoutubeYtBe] Extracting URL: https://youtu.be/yxkQ-jaCm-E?list=RDN3kkNfH4yco
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=yxkQ-jaCm-E&list=RDN3kkNfH4yco&feature=youtu.be
+[youtube:tab] Downloading just the video yxkQ-jaCm-E because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=yxkQ-jaCm-E
+[youtube] yxkQ-jaCm-E: Downloading webpage
+[youtube] yxkQ-jaCm-E: Downloading tv client config
+[youtube] yxkQ-jaCm-E: Downloading tv player API JSON
+[youtube] yxkQ-jaCm-E: Downloading ios player API JSON
+[youtube] yxkQ-jaCm-E: Downloading m3u8 information
+[info] yxkQ-jaCm-E: Downloading 1 format(s): 251
+[download] Destination: ./save/943192342188408842/1738880994501.opus
+[download]   0.0% of    3.91MiB at  645.87KiB/s ETA 00:06[download]   0.1% of    3.91MiB at    1.29MiB/s ETA 00:03[download]   0.2% of    3.91MiB at    2.32MiB/s ETA 00:01[download]   0.4% of    3.91MiB at    4.01MiB/s ETA 00:00[download]   0.8% of    3.91MiB at    4.16MiB/s ETA 00:00[download]   1.6% of    3.91MiB at    5.29MiB/s ETA 00:00[download]   3.2% of    3.91MiB at    6.60MiB/s ETA 00:00[download]   6.4% of    3.91MiB at    9.11MiB/s ETA 00:00[download]  12.8% of    3.91MiB at   13.54MiB/s ETA 00:00[download]  25.6% of    3.91MiB at   19.68MiB/s ETA 00:00[download]  51.2% of    3.91MiB at   27.66MiB/s ETA 00:00[download] 100.0% of    3.91MiB at   39.72MiB/s ETA 00:00[download] 100% of    3.91MiB in 00:00:00 at 22.05MiB/s  
+127.0.0.1 - - [06/Feb/2025 23:30:02] "POST /download_audio HTTP/1.1" 200 -
+127.0.0.1 - - [06/Feb/2025 23:31:32] "POST /delete HTTP/1.1" 200 -

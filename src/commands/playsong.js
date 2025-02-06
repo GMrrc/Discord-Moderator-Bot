@@ -21,10 +21,10 @@ function commandData() {
 async function execute(interaction, songManager) {
   try {
     const guildId = interaction.guild.id;
-    const isPlaying = songManager.getPlayingSource(guildId);
+    const isPlaying = songManager.getWaiting(guildId);
     if (isPlaying) {
       interaction.reply({
-        content: 'Please wait for the current stream to finish playing.',
+        content: 'Wait for the song to finish downloading or streaming.',
         ephemeral: true
       });
       return;
@@ -54,6 +54,8 @@ async function execute(interaction, songManager) {
       key: key
     };
 
+    songManager.setWaiting(guildId);
+
     axios
       .post('http://127.0.0.1:5001/download_audio', downloadData)
       .then((response) => {
@@ -71,8 +73,11 @@ async function execute(interaction, songManager) {
         if (isIdle) {
           playNextSong(player, interaction, songManager);
         }
+
+        songManager.unsetWaiting(guildId);
       })
       .catch((error) => {
+        
         // Gestion des erreurs provenant du serveur
         if (error.response) {
           const serverErrorMessage = error.response.data.error || 'An error occurred on the server.';
@@ -91,7 +96,7 @@ async function execute(interaction, songManager) {
             ephemeral: true
           });
         }
-
+        songManager.unsetWaiting(guildId);
         console.error(`playsong.execute (ERROR) : ${error}`);
       });
 
@@ -112,14 +117,7 @@ async function playNextSong(player, interaction, songManager, connection) {
 
     const song = await songManager.getSongQueue(guildId);
     if (!song) {
-      player.stop();
-      songManager.delAudioPlayer(guildId);
-      setTimeout(() => {
-        if (player.state.status === AudioPlayerStatus.Idle) {
-          songManager.deconnect(guildId);
-        }
-      }, 360000);
-      return await interaction.followUp('No more songs to play.');
+      return;
     }
 
     const embedText = "Now playing : " + song.title;

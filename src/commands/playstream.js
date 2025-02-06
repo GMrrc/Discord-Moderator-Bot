@@ -112,7 +112,7 @@ async function execute(interaction, songManager) {
         const source = interaction.options.getString('source');
         const streamUrl = source.startsWith('http') ? source : `http://${source}`;
 
-        songManager.setPlaySource(guildId);
+        songManager.setWaiting(guildId);
 
         // Vérifier si l'utilisateur est dans un canal vocal
         const voiceChannel = interaction.member.voice.channel;
@@ -146,7 +146,7 @@ async function execute(interaction, songManager) {
         // Création du player audio
         let player = songManager.getAudioPlayer(guildId);
         player.on(AudioPlayerStatus.Idle, () => {
-            songManager.unsetPlaySource(guildId);
+            songManager.unsetWaiting(guildId);
         });
 
         // Création de la ressource audio

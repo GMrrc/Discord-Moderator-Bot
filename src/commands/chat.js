@@ -68,7 +68,6 @@ async function execute(interaction, guildMessages) {
         });
 
     return;
-
 }
 
 module.exports = {

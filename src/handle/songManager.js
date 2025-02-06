@@ -9,34 +9,34 @@ class SongManager {
   constructor() {
     this.songQueue = new Map();
     this.guildAudioPlayer = new Map();
-    this.isPlayingSource = new Map();
+    this.isWaiting = new Map();
   }
 
-  setPlaySource(guildId) {
+  setWaiting(guildId) {
     try {
       // update boolean to true
-      this.isPlayingSource.set(guildId, true);
+      this.isWaiting.set(guildId, true);
     } catch (error) {
       console.error('\tsongManager.playSource (ERROR) : ' + error);
     }
   }
 
-  unsetPlaySource(guildId) {
+  unsetWaiting(guildId) {
     try {
       // update boolean to false
-      this.isPlayingSource.set(guildId, false);
+      this.isWaiting.set(guildId, false);
     } catch (error) {
       console.error('\tsongManager.playSource (ERROR) : ' + error);
     }
   }
 
-  getPlayingSource(guildId) {
+  getWaiting(guildId) {
     try {
       // Default to false if not set
-      if (!this.isPlayingSource.has(guildId)) {
+      if (!this.isWaiting.has(guildId)) {
         return false;
       }
-      return this.isPlayingSource.get(guildId);
+      return this.isWaiting.get(guildId);
     } catch (error) {
       console.error('\tsongManager.isPlayingSource (ERROR) : ' + error);
       return false;

@@ -13,7 +13,7 @@ async function execute(interaction, songManager) {
     const guildId = interaction.guild.id;
     let player = songManager.getAudioPlayer(guildId);
 
-    const isPlaying = songManager.getPlayingSource(guildId);
+    const isPlaying = songManager.getWaiting(guildId);
     if (isPlaying) {
       await interaction.reply({
         content: 'Please wait for the current stream to finish playing.',

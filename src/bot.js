@@ -23,7 +23,7 @@ const EventManager = require('./handle/eventManager');
 const GuildLevelManager = require('./handle/guildLevelManager');
 const SongManager = require('./handle/songManager');
 
-const { playDlFile } = require('./handle/playdlfile');
+const { playDlFile } = require('./handle/playDlFile');
 const Utils = require('./utils');
 
 // declare variables
@@ -227,10 +227,10 @@ client.on('voiceStateUpdate', (oldState, newState) => {
       const botMember = voiceChannel.members.get(client.user.id);
 
       if (!voiceChannel.members.has(client.user.id)) {
-        songManager.unsetPlaySource(oldState.guild.id);
+        songManager.unsetWaiting(oldState.guild.id);
       }
 
-      if (botMember && voiceChannel.members.size === 1 && voiceChannel.members.has(client.user.id)) {
+      if (botMember && voiceChannel.members.size >= 1 && voiceChannel.members.has(client.user.id)) {
         console.log(`No user left, disconnected from ${voiceChannel.name}`);
         const guildId = oldState.guild.id;
         songManager.deconnect(guildId);
@@ -240,7 +240,6 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     console.error('bot.voiceStateUpdate (ERROR) : ', error);
   }
 });
-
 
 
 
